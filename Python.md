@@ -1,0 +1,69 @@
+# Python
+
+## 对象
+
+​	Python中一切都是对象。
+​	每个对象由：标识（identity）、类型（type）、值（value）组成。
+
+![image-20250629233917045](/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250629233917045.png)
+
+​	对象的本质就是：一个内存块，拥有特定的值，支持特定类型的相关操作。
+
+## 引用
+
+​	在Python中，变量也称为对象的引用（reference）。变量存储的就是对象的地址。变量通过地址引用（指向）了对象。
+​	变量位于：栈内存。
+​	对象位于：堆内存。
+​	Python是动态类型的语言：变量不需要显示声明类型。根据变量引用的对象，Python解释器自动确定数据类型。
+
+## 标识符
+
+![image-20250629235554806](/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250629235554806.png)
+
+![image-20250629235907769](/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250629235907769.png)
+
+## 删除变量和垃圾回收机制
+
+​	可以通过del语句删除不再使用的变量。
+​	如果对象没有被变量引用，就会被垃圾回收器回收清空内存空间。
+
+## 常量
+
+​	Python实际上不支持常量，即没有语法规则限制修改一个常量的值。通常只能常量的命名规则，以及在程序的逻辑上不对常量的值作出修改。
+
+## 链式赋值
+
+​	链式赋值用于同一个对象赋值给多个变量。
+
+```python
+x = y = 100
+```
+
+## 序列解包赋值
+
+```python
+a,b,c = 1,2,3
+```
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+
+
+​	
+
+
+
+
+
+
+
