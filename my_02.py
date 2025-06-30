@@ -15,7 +15,7 @@ MAX_AGE = 120
 print(MAX_AGE)
 MAX_AGE = 150
 print(MAX_AGE)
-
+del MAX_AGE
 # 序列解包赋值实现变量互换
 a,b = 1,2
 print(a)
@@ -23,7 +23,7 @@ print(b)
 a,b = b,a
 print(a)
 print(b)
-
+del a,b
 
 # 基本数据类型
 
@@ -35,6 +35,11 @@ d = True
 
 for i in [a,b1,b2,c,d]:
     print(type(i))
+    del i
     
 
 import time
+# 以秒为单位
+b = time.time()
+print(b)
+del b
