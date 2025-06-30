@@ -43,3 +43,48 @@ import time
 b = time.time()
 print(b)
 del b
+
+# 文件模式下缓存数字
+a = 257
+b = 257
+print(id(a))
+print(id(b))
+print(a is b)
+del a,b
+
+s = '''
+a
+a. a
+a
+'''
+print(s)
+
+#换行
+a = 'I\nlove\nyou'
+#制表符
+b = 'ni\thao'
+#转义字符
+c = 'I\'m Tom'
+print(a)
+print(b)
+print(c)
+del a,b,c
+
+
+a = 'abcd'
+# 将字符b换成字符a
+b = a.replace('b','a')
+print(a)
+print(b)
+print(b is a)
+
+# 字符串分割、合并
+a = 'I love You'
+b = a.split('o')
+print(b)
+c = ['aa','bb','cc']
+b = ''.join(c)
+print(b)
+e = '*'.join(c)
+print(e)
+
