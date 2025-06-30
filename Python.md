@@ -111,9 +111,138 @@ print(b)
 - split()可以基于指定分割符将字符串分割成多个子字符串并存储到列表中。如果不指定分割符，则默认使用**空白字符**（换行符/空格/制表符）
 - join()用于将一系列字符串连接起来。
 
+<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250630124628598.png" alt="image-20250630124628598" style="zoom:50%;" />
+
+```python
+import time 
+time1 = time.time()
+a = ''
+for i in range(1000000):
+    a += 'stx'
+time2 = time.time()
+
+li = []
+for i in range(1000000):
+    li.append('stx')
+time3 = time.time()
+b = ''.join(li)
+time4 = time.time()
+
+print('+操作耗费时间：'+str(time2-time1))
+print('join操作耗费时间：'+str(time4-time3))
+```
+
+## 字符串驻留机制
+
+- 字符串驻留：常量字符串只保留一份
+
+```python
+c = 'dd#@'
+d = 'dd#@'
+print(c is d) #True
+```
+
+##  字符串格式化
+
+```python
+# 字符串格式化
+a = '姓名:{0},年龄:{1}'
+b = a.format('joe','22')
+print(b)
+
+c = '姓名:{name},年龄:{age}'
+d = c.format(name='Jack',age='11')
+print(d)
+```
+
+## 数字格式化
+
+- 浮点数通过f，整数通过d进行需要的格式化
+
+```python
+# 数字格式化
+a = '{:.2f}'
+print(a.format(3.1415))
+```
+
+## 可变字符串
+
+```python
+import io 
+s = 'abcdefg' # s仍然不可变
+sio = io.StringIO(s) # sio就是可变字符串
+print(sio)
+print(sio.getvalue())
+sio.seek(3) #指针到索引3这个位置
+sio.write("@@")
+print(sio.getvalue())
+
+```
+
+## 列表
+
+- 用于存储任意数量、任意类型的数据集合
+- 列表是内置可变序列，是包含多个元素的有序连续的内存空间。
+- 列表中的元素类型可以各不相同，大小可变，可以根据需要随时增加或者删除。
+
+##  元组
+
+- 元组属于不可变序列，不能修改元组中的元素。
+- 元组的访问和处理速度比列表快。
+- 与整数和字符串一样，元组可以作为字典的键，而列表不能作为字典的键。
+
+## 生成器推导式创建元组
+
+```python
+a = (i for i in range(10)) # 生成器对象
+b = tuple(a)
+print(b) # (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+```
+
+- 生成器对象只能使用一次，如果需要重新访问其中的元素，必须重新创建该生成器对象。
+
+```python
+c = (i for i in range(3))
+print(c.__next__()) # 1
+print(c.__next__()) # 2
+print(c.__next__()) # 3
+```
+
+- `__next__()`方法实现对生成器对象的遍历。
 
 
-​	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
