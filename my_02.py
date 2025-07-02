@@ -151,3 +151,39 @@ c = (i for i in range(3))
 print(c.__next__())
 print(c.__next__())
 print(c.__next__())
+
+# 字典
+a = {'name':'Jack','age':18}
+b = dict(name='Jack',age=18)
+c = dict([('name','Jack'),('age',18)])
+d = {}
+e = dict()
+
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
+k = ['name','age','job']
+v = ['Jack',18,'programmer']
+d = dict(zip(k,v))
+print(d)
+
+f = dict.fromkeys(['name','age','job'])
+
+print(f)
+
+print(d.get('name'))
+print(d.get('age1',0))
+
+
+a = {10,20,30}
+b = {100,20,300}
+
+c = a|b
+print(c)
+c = a&b
+print(c)
+c = a-b
+print(c)
