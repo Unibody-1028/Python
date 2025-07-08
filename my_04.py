@@ -307,27 +307,236 @@
 # s = str(p)
 # print(s)
         
-class A():
-    def aa(self):
-        print('aa')
-    def say(self):
-        print("say AAA")
+# class A():
+#     def aa(self):
+#         print('aa')
+#     def say(self):
+#         print("say AAA")
         
         
-class B():
-    def bb(self):
-        print('bb')
-    def say(self):
-        print("say BBB")
+# class B():
+#     def bb(self):
+#         print('bb')
+#     def say(self):
+#         print("say BBB")
         
         
-class C(A,B):
-    def cc(self):
-        print('cc')
+# class C(A,B):
+#     def cc(self):
+#         print('cc')
 
-c = C()
-print(C.mro())
-c.say()
+# c = C()
+# print(C.mro())
+# c.say()
 
 
-     
+# class A:
+#     def __init__(self):
+#         print("A的构造方法")
+        
+#     def say(self):
+#         print("A:",self)     
+#         print("AAA")
+        
+    
+# class B(A):
+#     def __init__(self):
+#         A.__init__(self)    # 调用父类的构造方法
+#         #super(B,self).__init__()
+#         print("B的构造方法")
+#     def say(self):          #调用父类的say()方法
+#         A.say(self)     
+#         #super().say()
+#         print("B:",self)
+#         print("BBB")
+
+# b = B()        
+# b.say()
+
+
+
+# class Animal:
+#     def shout(self):
+#         print('动物叫了一声')
+
+
+# class Dog(Animal):
+#     def shout(self):
+#         print('小狗汪汪汪')
+        
+        
+# class Cat(Animal):
+#     def shout(self):
+#         print("小猫喵喵喵")
+        
+# def animalshout(a):
+#     a.shout()    #根据传入的对象不同，调用的方法也不一样。
+    
+# a = Animal()
+# b = Dog()
+# c = Cat()
+
+# l1 = [a,b,c]
+# for i in l1:
+#     animalshout(i)
+
+# a = 20
+# b = 30
+# c = a+b
+# d = a.__add__(b)
+# print("c:",c)
+# print("d:",d)
+
+# #测试运算符的重载
+# class Person:
+#     def __init__(self,name):
+#         self.name = name
+#     def __add__(self,other):
+#         if isinstance(other,Person):
+#             return "{0}--{1}".format(self.name,other.name)
+#         else:
+#             return "不是同类对象，不能相加"
+
+#     def __mul__(self,other):
+#         if isinstance(other,int):
+#             return self.name*other
+#         else:
+#             return "不是同类对象，不能相乘"
+    
+# p1 = Person('Jack')
+# p2 = Person('Ben')
+
+# print(p1+p2)
+# print(p1*3)
+
+# #拷贝测试
+# import copy
+# class MobilePhone():
+#     def __init__(self,CPU):
+#         self.CPU = CPU
+    
+# class CPU:
+#     pass
+
+# c = CPU()
+# m = MobilePhone(c)
+# print("浅拷贝")
+# m2 = copy.copy(m)
+# print("m:",id(m))
+# print("m2:",id(m2))
+# print("m中的CPU：",id(m.CPU))
+# print("m2中的CPU：",id(m2.CPU))
+
+# print('----------------------')
+# print("深拷贝")
+# m2 = copy.deepcopy(m)
+# print("m:",id(m))
+# print("m2:",id(m2))
+# print("m中的CPU：",id(m.CPU))
+# print("m2中的CPU：",id(m2.CPU))
+
+# #组合
+# class CPU:
+#     def calculate(self):
+#         print("正在计算")
+        
+# class Screen:
+#     def show(self):
+#         print("正在显示")
+
+# class MobilePhone:
+#     def __init__(self,cpu,screen):
+#         self.cpu = cpu
+#         self.screen = screen
+# c = CPU()
+# s = Screen()
+# m = MobilePhone(c,s)
+# m.cpu.calculate()
+# m.screen.show()
+
+# #工厂模式
+# class Benz:
+#     pass
+# class BMW:
+#     def __init__(self):
+#         print('BMW')
+# class BYD:
+#     pass
+
+# class CarFactory:
+#     def createCar(self,brand):
+#         if brand == '奔驰':
+#             return Benz()
+#         elif brand == '宝马':
+#             return BMW()
+#         elif brand == "比亚迪":
+#             return BYD()
+#         else:
+#             return "未知品牌"
+
+# fac = CarFactory()
+# car1 = fac.createCar('宝马')
+
+# #单例模式
+# class MySingleton:
+#     __obj = None
+#     __init_flag = True
+    
+#     def __new__(cls,*args,**kwargs):
+#         if cls.__obj == None:
+#             cls.__obj = object.__new__(cls)
+#         return cls.__obj
+        
+#     def __init__(self,name):
+#         if MySingleton.__init_flag:
+#             print('初始化第一个对象......')
+#             self.name = name
+#             MySingleton.__init_flag = False
+            
+# a = MySingleton('aa')
+# print(a)
+# b = MySingleton('bb')
+# print(a)   
+
+# #工厂模式和单例模式结合
+# class Benz:
+#     pass
+# class BWM:
+#     pass
+# class BYD:
+#     pass
+# class Factory:
+#     __obj = None
+#     __init_flag = True
+    
+#     def __new__(cls,*args,**kwargs):
+#         if cls.__obj == None:
+#             cls.__obj = object.__new__(cls)
+#         return cls.__obj
+        
+#     def __init__(self):
+#         if Factory.__init_flag:
+#             Factory.__init_flag = False
+    
+#     def createCar(self,brand):
+#         if brand == "奔驰":
+#             return Benz()
+#         elif brand == "宝马":
+#             return BWM()
+#         elif brand == "比亚迪":
+#             return BYD()
+#         else:
+#             print('未知品牌')
+            
+# factory = Factory()
+# c1 = factory.createCar('奔驰')
+# c2 = factory.createCar('宝马')
+
+# print(c1)   
+# print(c2)   
+
+# factory2 = Factory()      
+
+# print(factory)
+# print(factory2)
+            

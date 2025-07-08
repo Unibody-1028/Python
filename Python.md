@@ -351,6 +351,42 @@ print("耗时：{0}".format(end2-start2))
 
 <img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250702103240742.png" alt="image-20250702103240742" style="zoom:50%;" />
 
+**浅拷贝**
+
+- Python中拷贝一般都是浅拷贝。拷贝时，对象包含的子对象内容不拷贝。因此，源对象和拷贝对象都会引用同一个子对象。
+
+**深拷贝**
+
+- 使用copy模块的deepcopy函数，递归拷贝对象中包含的子对象。源对象和拷贝对象所有的子对象也不同。
+
+```python
+#拷贝测试
+import copy
+class MobilePhone():
+    def __init__(self,CPU):
+        self.CPU = CPU
+    
+class CPU:
+    pass
+
+c = CPU()
+m = MobilePhone(c)
+print("浅拷贝")
+m2 = copy.copy(m)
+print("m:",id(m))
+print("m2:",id(m2))
+print("m中的CPU：",id(m.CPU))
+print("m2中的CPU：",id(m2.CPU))
+
+print('----------------------')
+print("深拷贝")
+m2 = copy.deepcopy(m)
+print("m:",id(m))
+print("m2:",id(m2))
+print("m中的CPU：",id(m.CPU))
+print("m2中的CPU：",id(m2.CPU))
+```
+
 ## 参数传递：不可变对象包含可变对象
 
 ​	传递不可变对象时，不可变对象里面包含的子对象是可变的，对子对象进行修改，源对象也会发生变化。
@@ -794,20 +830,209 @@ print(s)
 
 ​	Python支持多继承，如果父类中有相同名字的方法，在子类没有指定父类名时，解释器将“从左到右”按顺序搜索。
 
-## super（）获得父类的定义
+## super（）获得父类方法的定义
 
-## 多态详解
+```python
+class A:
+    def __init__(self):
+        print("A的构造方法")
+        
+    def say(self):
+        print("A:",self)     
+        print("AAA")
+        
+    
+class B(A):
+    def __init__(self):
+        A.__init__(self)    # 调用父类的构造方法
+        #super(B,self).__init__()
+        print("B的构造方法")
+    def say(self):          #调用父类的say()方法
+        A.say(self)     
+        #super().say()
+        print("B:",self)
+        print("BBB")
+
+b = B()        
+b.say()
+```
+
+## 多态
+
+​	多态：同一个方法调用，不同的对象行为完全不同。
+
+-    多态是方法的多态，属性没有多态
+- 多态存在有两个必要条件：继承、方法重写
 
 ## 特殊方法和运算重载符
 
+Python的运算符实际上是通过调用对象的特殊方法实现的。
+
+```python
+#测试运算符的重载
+class Person:
+    def __init__(self,name):
+        self.name = name
+    def __add__(self,other):
+        if isinstance(other,Person):
+            return "{0}--{1}".format(self.name,other.name)
+        else:
+            return "不是同类对象，不能相加"
+
+    def __mul__(self,other):
+        if isinstance(other,int):
+            return self.name*other
+        else:
+            return "不是同类对象，不能相乘"
+    
+p1 = Person('Jack')
+p2 = Person('Ben')
+
+print(p1+p2)
+print(p1*3)
+```
+
 ## 特殊属性
 
-## 浅拷贝和深拷贝的内存分析
+Python对象中包含了很多双下划线开始和结束的属性，这些都是特殊属性。
+
+<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250708165653617.png" alt="image-20250708165653617" style="zoom:50%;" />
 
 ## 继承和组合
 
+- 除了继承，“组合”也能实现代码的复用！“组合”的**核心是将对象作为类的属性**。
+
+1. `is-a`关系，我们可以使用继承。从而实现子类拥有父类的方法和属性。`is-a`关系指的是类似这样的组合：狗是动物，dog is animal 。狗类就应该继承动物类。
+2. `has-a`关系，我们可以使用”组合“，也能实现一个类拥有另一个类的方法和属性。`has-a`关系指的是这样的关系：手机拥有CPU。MobliePhone has a CPU
+
+```python
+#组合
+class CPU:
+    def calculate(self):
+        print("正在计算")
+        
+class Screen:
+    def show(self):
+        print("正在显示")
+
+class MobilePhone:
+    def __init__(self,cpu,screen):
+        self.cpu = cpu
+        self.screen = screen
+c = CPU()
+s = Screen()
+m = MobilePhone(c,s)
+m.cpu.calculate()
+m.screen.show()
+```
+
 ## 设计模式-工厂模式
+
+- 工厂模式实现了**创建者和调用者的分离**，使用专门的工厂类将选择实现类、创建对象进行统一的管理和控制
+
+```python
+
+#工厂模式
+class Benz:
+    pass
+class BMW:
+    def __init__(self):
+        print('BMW')
+class BYD:
+    pass
+
+class CarFactory:
+    def createCar(self,brand):
+        if brand == '奔驰':
+            return Benz()
+        elif brand == '宝马':
+            return BMW()
+        elif brand == "比亚迪":
+            return BYD()
+        else:
+            return "未知品牌"
+
+fac = CarFactory()
+car1 = fac.createCar('宝马')
+```
 
 ## 设计模式-单例模式
 
+- **单例模式**的核心作用是确保一个类只有一个实例，并且提供一个访问该实例的全局访问点。
+- 单例模式只生成一个实例对象，减少了对系统资源的开销。当一个对象的产生需要比较多的资源，如读取配置文件、产生其它依赖对象时，可以产生一个“单例对象”，然后永久驻留在内存中，从而降低系统资源开销。
+
+ 
+
+```python
+#单例模式
+class MySingleton:
+    __obj = None
+    __init_flag = True
+    
+    def __new__(cls,*args,**kwargs):
+        if cls.__obj == None:
+            cls.__obj = object.__new__(cls)
+        return cls.__obj
+        
+    def __init__(self,name):
+        if MySingleton.__init_flag:
+            print('初始化第一个对象......')
+            self.name = name
+            MySingleton.__init_flag = False
+            
+a = MySingleton('aa')
+print(a)
+b = MySingleton('bb')
+print(a)   
+
+
+```
+
 ## 设计模式-工厂和单例模式结合
+
+```python
+#工厂模式和单例模式结合
+class Benz:
+    pass
+class BWM:
+    pass
+class BYD:
+    pass
+class Factory:
+    __obj = None
+    __init_flag = True
+    
+    def __new__(cls,*args,**kwargs):
+        if cls.__obj == None:
+            cls.__obj = object.__new__(cls)
+        return cls.__obj
+        
+    def __init__(self):
+        if Factory.__init_flag:
+            Factory.__init_flag = False
+    
+    def createCar(self,brand):
+        if brand == "奔驰":
+            return Benz()
+        elif brand == "宝马":
+            return BWM()
+        elif brand == "比亚迪":
+            return BYD()
+        else:
+            print('未知品牌')
+            
+factory = Factory()
+c1 = factory.createCar('奔驰')
+c2 = factory.createCar('宝马')
+
+print(c1)   
+print(c2)   
+
+factory2 = Factory()      
+
+print(factory)
+print(factory2)
+            
+```
+
+ 
