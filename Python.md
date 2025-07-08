@@ -384,3 +384,430 @@ lambda arg1,arg2,arg3...:  <表达式>
 
 ​	**eval()函数会将字符串当作语句执行，因此会有安全隐患。**
 
+## 递归函数
+
+ 	递归函数指的是：自己调用自己的函数，在函数体内部直接或者间接的自己调用自己。每个递归函数必须包括两个部分：
+
+1. **终止条件：**
+
+   表示递归什么时候结束，一般用于返回值，不再调用自己。
+
+2. **递归步骤：**
+
+​		把第n步的值和第n-1步相关联。
+
+​	**递归函数会创建大量的函数对象，会消耗大量的内存和计算能力，在处理大量数据时，谨慎使用**
+
+## 嵌套函数
+
+​	嵌套函数就是在函数内部定义的函数
+
+```python
+#嵌套函数
+def outer():
+    print('outer running')
+    def inner():
+        print('inner running')
+    inner()
+
+outer()
+```
+
+## nonlocal
+
+​	nonlocal：用来在内部函数中，声明外层使用的局部变量。
+
+​	global：函数内声明全局变量，然后才使用全局变量
+
+## LEGB规则
+
+<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250703104015339.png" alt="image-20250703104015339" style="zoom:60%;">
+
+## 面向对象编程
+
+- Python完全采用了面向对象的思想，是真正面向对象的编程语言，完全支持面向对象的基本功能，例如：继承、多态、封装等。
+
+- 面向对象(Object oriented Programming,OOP)编程的主要思想是针对大型软件设计而来的。
+- 面向对象编程使程序的扩展性更强、可读性更好
+- 面向对象编程将**数据和操作数据相关的方法封装到对象中**，组织代码和数据的方式更加接近人的思维，从而大大提高了编程的效率。
+
+  
+
+## 类的定义
+
+- 把饼干比作一个“饼干”，类就是制造这个饼干的“模具”。
+- 通过类定义数据类型的属性（数据）和方法（行为），也就是说，类将行为和状态打包在一起。
+
+## 属性和方法
+
+- 定义类的语法格式：
+
+<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250707161504670.png" alt="image-20250707161504670" style="zoom:115%;" />
+
+1. 类名必须符合标识符的规则；一般规定首字母大写，多个单词使用驼峰原则。
+2. 类体中定义属性和方法
+3. 属性用来描述数据，方法用来描述这些数据相关的操作。
+
+## ______init__()构造方法
+
+- 初始化对象，需要定义构造函数`__init__()`方法，构造方法用于执行“实例对象的初始化方法”，即对象创建之后，初始化当前对象的相关属性，无返回值。
+
+- 要点如下：
+
+1. 名称固定，必须为`__init__()`
+
+2. 第一个参数固定，必须为：self。self是指刚刚创建好的对象。
+
+3. 构造函数通常用于初始化实例对象的实例属性，如下代码就是初始化实例属性：name和score
+
+   ```python
+   def __init__(self,name,score)
+   		self.name = name
+   		self.score = score
+   ```
+
+4. 通过“类名（参数列表）”来调用构造函数。调用后，将创建好的对象返回给相应的变量。比如：s1 = Student(“张三”，80)
+
+5. `__init__()`方法：初始化创建好的对象，初始化指的是：“给实例属性赋值”
+
+6. `__new__()`方法：用于创建对象，一般无需重定义
+
+7. 如果不定义`__init__()`方法，系统一般会提供一个默认的无参数`__init__()`方法
+
+   如果定义了带参数的`__init__()`方法，则系统不会创建默认的`__init__()`方法
+
+​	**Python中的self相当于C++中的self指针，JAVA和C#中的this关键字。**
+
+**Python中self必须为构造函数的第一个参数，名字可以任意修改。但一般都叫做self**
+
+## 实例属性和实例方法
+
+### 实例方法
+
+- 实例方法是从属于实例对象的方法。实例方法的定义如下：
+
+```python
+def 方法名（self,[形参列表]）：
+		函数体
+```
+
+- 调用格式：
+
+​		对象.方法名（[实参列表]）
+
+- 要点：	
+
+1. 定义实例方法时，第一个参数必须为self，self指当前的实例对象。
+2. 调用实例方法时，不需要也不能给self传参。self由解释器自动传参。
+
+```python
+class Student:
+    def say_hello(self):
+        print(self,'----','hello')
+        
+s1 = Student()
+s1.say_hello()
+Student.say_hello(s1)
+```
+
+## 类属性
+
+- 类属性是从属于“类对象”的属性，也称为类变量。由于，类属性从属于类对象，可以被所有实例对象共享。
+- 类属性的定义方式：
+
+```python
+class 类名：
+		类变量名 = 初始值
+```
+
+- 在类中或者类的外面，可以通过：类名.类变量来读写。
+
+<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250707181132004.png" alt="image-20250707181132004" style="zoom:50%;" />
+
+## 类方法
+
+​	类方法从属于“类对象”，通过装饰器@classmethod来定义，格式如下：
+
+```python
+@classmethod 
+def 类方法名（cls，[形参列表]）：
+		方法名
+```
+
+​	要点如下：
+
+1. @classmethod必须位于方法上面一行
+2. 第一个cls必须要有；cls指的就是“类对象本身”
+3. 调用类方法格式：类名.类方法名(参数列表)。参数列表中，不需要也不能给cls传值。
+4. 类方法中访问实例属性和实例方法会导致错误。
+5. 子类继承父类时，传入cls是子类对象，而非父类对象。
+
+```python
+class Student:
+    company = "Aniplex"
+    
+    @classmethod
+    def printCompany(cls):
+        print(cls.company)
+        
+Student.printCompany()
+```
+
+
+
+## 静态方法
+
+**Python中允许定义与“类对象”无关的方法，成为“静态方法”。**
+
+“静态方法”和在模块中定义的普通函数没有区别，只不过“静态方法”放到了类的名字命名空间里面。需要通过类调用。
+
+静态方法通过装饰器@staticmethod定义，格式如下：
+
+```python
+@staticmethod
+def 静态方法名（[形参列表]）：
+		方法体
+```
+
+要点如下：
+
+1. @statcimethod必须位于方面上面一行
+2. 调用静态方法格式：类名.静态方法名（参数列表）
+3. 静态方法中调用实例方法会导致错误。
+
+```python
+--------------------------- 
+class Student:
+    company = "Aniplex"
+    
+    @classmethod
+    def printCompany(cls):
+        print(cls.company)
+    @staticmethod
+    def add(a,b):
+        print("{0}+{1}={2}".format(a,b,(a+b)))
+        return a+b
+        
+Student.printCompany()
+Student.add(30,40)
+```
+
+## `__del__（）`方法（析构函数）和垃圾回收机制
+
+​	Python实现自动的垃圾回收，当对象没有引用时（引用计数为0），由垃圾回收器调用`__del__()`。
+
+​	`__del__()`称为“析构方法”，用于实现对象被销毁时所需的操作。比如：释放对象占用的资源，例如：打开的文件资源、网络连接等。
+
+​	系统会自动提供`__del__（）方法`，一般不需要自定义析构方法。
+
+## `__call__方法`和可调用对象
+
+​	可调用对象：可以将（）直接应用到自身并执行，即定义了`__call__()`的对象，对于无法调用的对象，可以自定义`__call__()`使它可以被调用。
+
+## 方法没有重载
+
+​	如果在类中定义了多个同名的方法，只有最后一个方法有效。
+
+## 方法的动态性
+
+​	Python可以动态的为类添加新的方法、可以动态的修改类已有的方法。 
+
+```python
+#测试方法的动态性
+class Person:
+    def work(self):
+        print("努力上班")
+
+def play_game(self):
+    print("玩游戏")
+def work2(self):
+    print("好好工作，努力上班")
+Person.work = work2
+Person.play = play_game
+p = Person()
+p.work()
+p.play()
+```
+
+## 私有属性和私有方法（封装）
+
+​	**Python中对于类的成员没有严格的访问控制限制**
+
+​	要点如下：
+
+- 通常约定，两个下划线开头的属性是私有的（private）。其它为公共的（public）。
+- 类内部可以访问私有属性（方法）
+- 类外部不能直接访问私有属性（方法）
+- 类外部可以通过`_类名__私有属性（方法）`名访问私有属性（方法）
+
+```python
+#测试私有属性、私有方法
+
+class Employee:
+    __company = "Aniplex" #解释器运行时，把__company转成了_Employee__company
+    
+print(dir(Employee))
+print(Employee._Employee__company)
+```
+
+
+
+## @property装饰器
+
+​	**@property**可以将一个方法的调用方式编程“属性调用”，一般用于处理属性的读操作、写操作。
+
+```python
+class Employee:
+    def __init__(self,name,salary):
+        self.name = name
+        self.__salary = salary
+    @property
+    def salary(self):
+        print('薪资是：',self.__salary)
+        return self.__salary
+    @salary.setter
+    def salary(self,salary):
+        self.__salary = salary
+
+emp1 = Employee('Jack',10000)
+emp1.salary 
+emp1.salary=20000
+emp1.salary
+
+```
+
+## 属性和类的命名规则总结
+
+- `_xxx`：保护成员，不能用from module import *倒入，只有类对象和子类对象能访问这些成员。
+- `__xxx__`：系统定义的特殊成员
+- `__xxx`：类中的私有成员，**只有类对象自己能访问，子类对象也不能访问。**（但是在类外部可以通过对象名._类名__xxx这种特殊方式访问，Python不存在严格意义上的私有成员）
+
+## None对象的特殊性
+
+- None是一个特殊的常量，表示变量没有指向任何对象。
+- None本身也是对象，有自己的类型NoneType。
+- 可以将None赋值给任何变量，但是不能创建NoneType类型的对象。
+- None不是False，不是0，不是空字符串，None和任何其他的数据类型比较永远返回False。
+- if语句判断时，空列表、空字典、空元组、0等一系列代表空和无的对象会被转换成False。
+- ==和is判断时，空列表、空字符串不会自动转换成False。
+
+## 面向对象的三大特征说明（封装、继承、多态）
+
+### 	封装：
+
+​			隐藏对象的属性和实现细节，只对外提供必要的方法。
+
+### 	继承：
+
+​			继承可以让子类具有父类的特征，提高了代码的重用性。
+
+### 	多态：
+
+​			多态是指同一个方法调用由于对象不同会产生不同的行为。
+
+## 继承详解
+
+​	继承可以让我们更加容易实现类的扩展，实现代码的复用。
+
+​	语法格式：
+
+```python
+class 子类类名（父类1[,父类2，...]）:
+		类体
+```
+
+​	如果在类定义中没有指定父类，则默认父类是object类。也就是说，object是所有类的父类，里面定义了一些所有类共有的默认实现，比如：`__new__()`
+
+​	关于构造函数：
+
+- 子类不重写`__init__()`时，实例化子类，会自动调用父类定义的`__init__()`。
+- 子类重写`__init__()`，实例化子类，就不会调用父类的`__init__()`。
+- 如果重写了`__init__()`，要继承父类的构造方法，可以使用`super`关键字，也可以使用`父类名.init(self,参数列表)调用。`
+
+ 
+
+```python
+class Person:
+    def __init__(self,name,age):
+        print("创建Person")
+        self.name = name
+        self.age = age
+        
+    def print_age(self):
+        print("{0}的年龄是{1}".format(self.name,self.age))
+     
+     
+class Student(Person):
+      def __init__(self, name, age, score):
+          #调用父类的构造方法
+          #Person.__init__(self,name,age)
+          super(Student,self).__init__(name,age)         
+          print("创建Student")
+          self.score = score
+        
+s1 = Student('Jack',20,100)
+s1.print_age()
+
+ 
+```
+
+## 成员继承和方法的重写
+
+​	成员继承：子类继承了父类除构造方法之外的所有成员。**（私有属性、私有方法也被继承）**
+
+​	方法重写：子类可以重新定义父类中的方法，这样就会覆盖父类的方法，也称为“重写”。
+
+​	可以通过`mro()`或者类的属性`_mro_`可以输出这个类的继承层次结构。
+
+## object根类
+
+​	object类是所有类的父类
+
+## 重写str方法
+
+- object有一个`_str_()`方法，用于返回一个对于“对象的描述”。内置函数`str（对象）`，调用的就是`_str_()`。
+- `_str_()`经常用于`print（）`方法，帮助我们查看对象的信息。`_str_()`可以重写。
+
+```python
+#重写str方法 
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def __str__(self):
+        '''将对象转化为一个字符串描述，一般用于print方法'''
+        print("重写__str__方法")
+        return "名字是{0},年龄是{1}".format(self.name,self.age)
+    
+p = Person("jack",20)
+print(p)
+
+s = str(p)
+print(s)
+```
+
+## 多重继承
+
+​	Python支持多重继承，一个子类可以有多个“直接父类”。
+
+## MRO方法解析顺序
+
+​	Python支持多继承，如果父类中有相同名字的方法，在子类没有指定父类名时，解释器将“从左到右”按顺序搜索。
+
+## super（）获得父类的定义
+
+## 多态详解
+
+## 特殊方法和运算重载符
+
+## 特殊属性
+
+## 浅拷贝和深拷贝的内存分析
+
+## 继承和组合
+
+## 设计模式-工厂模式
+
+## 设计模式-单例模式
+
+## 设计模式-工厂和单例模式结合
