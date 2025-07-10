@@ -6,7 +6,7 @@
 
 ​	Python中引进了很多用来描述和处理异常的类，称为异常类。异常类定义中包含了该类异常的信息和对异常进行处理的方法。
 
-<img src="/Users/guopengpeng/Python/Python_Advance/python_advanced.assets/image-20250708222145829.png" alt="image-20250708222145829" style="zoom:100%;" />
+<img src="assets/image-20250708222145829.png" alt="image-20250708222145829" style="zoom:100%;" />
 
 **Python中一切都是对象，异常也采用对象的方式来处理**。处理过程：
 
@@ -198,6 +198,6 @@ open()函数用于创建文件对象，基本语法格式如下：
 
 如果只是文件名，则代表在当前目录下的文件。文件名可以录入全路径，为了减少`\`的输入，可以使用原始字符串:`r"原始字符串"`。
 
-<img src="/Users/guopengpeng/Python/Python_Advance/python_advanced.assets/image-20250709150902240.png" alt="image-20250709150902240" style="zoom:100%;" />
+<img src="assets/image-20250709150902240.png" alt="image-20250709150902240" style="zoom:100%;" />
 
 ## 常用编码
