@@ -5,7 +5,7 @@
 ​	Python中一切都是对象。
 ​	每个对象由：标识（identity）、类型（type）、值（value）组成。
 
-![image-20250629233917045](/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250629233917045.png)
+![image-20250629233917045](/Users/guopengpeng/Python/Python/Python.assets/image-20250629233917045.png)
 
 ​	对象的本质就是：一个内存块，拥有特定的值，支持特定类型的相关操作。
 
@@ -18,9 +18,9 @@
 
 ## 标识符
 
-![image-20250629235554806](/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250629235554806.png)
+![image-20250629235554806](/Users/guopengpeng/Python/Python/Python.assets/image-20250629235554806.png)
 
-![image-20250629235907769](/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250629235907769.png)
+![image-20250629235907769](/Users/guopengpeng/Python/Python/Python.assets/image-20250629235907769.png)
 
 ## 删除变量和垃圾回收机制
 
@@ -67,11 +67,11 @@ a,b,c = 1,2,3
 
 ## 转义字符
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250630112354373.png" alt="image-20250630112354373" style="zoom:45%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250630112354373.png" alt="image-20250630112354373" style="zoom:45%;" />
 
 ## 字符串拼接
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250630112922913.png" alt="image-20250630112922913" style="zoom:50%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250630112922913.png" alt="image-20250630112922913" style="zoom:50%;" />
 
 
 
@@ -100,18 +100,18 @@ print(b)
 
   - 反向搜索
 
-    最右侧第一个字符，偏移量是-1，第二个偏移量是-2，直到`-len(str)-1`为止。
+    最右侧第一个字符，偏移量是-1，第二个偏移量是-2，直到`-len(str)`为止。
 
 ## 字符串切片slice操作
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250630115337017.png" alt="image-20250630115337017" style="zoom:50%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250630115337017.png" alt="image-20250630115337017" style="zoom:50%;" />
 
 ##  split()分割和join()合并
 
 - split()可以基于指定分割符将字符串分割成多个子字符串并存储到列表中。如果不指定分割符，则默认使用**空白字符**（换行符/空格/制表符）
 - join()用于将一系列字符串连接起来。
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250630124628598.png" alt="image-20250630124628598" style="zoom:50%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250630124628598.png" alt="image-20250630124628598" style="zoom:50%;" />
 
 ```python
 import time 
@@ -312,9 +312,9 @@ print("耗时：{0}".format(end2-start2))
 1. 函数是可重用的代码块。
 2. 函数不仅可以实现代码的复用，更能实现代码的一致性，即只要修改函数的代码，则所有调用该函数的地方都能得到体现。
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250702092319915.png" alt="image-20250702092319915" style="zoom:50%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250702092319915.png" alt="image-20250702092319915" style="zoom:50%;" />
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250702092442861.png" alt="image-20250702092442861" style="zoom:40%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250702092442861.png" alt="image-20250702092442861" style="zoom:40%;" />
 
 1. 变量c和print_star都指向了同一个函数对象。因此执行c()和print_star()的效果完全一致。
 2. Python中圆括号意味着调用函数，在没有圆括号的情况下，Python会把函数当作普通对象。
@@ -349,7 +349,7 @@ print("耗时：{0}".format(end2-start2))
 
 ​	**深拷贝**：拷贝对象，并且会将子对象的内容拷贝一份，对拷贝对象的修改不会影响源对象。
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250702103240742.png" alt="image-20250702103240742" style="zoom:50%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250702103240742.png" alt="image-20250702103240742" style="zoom:50%;" />
 
 **浅拷贝**
 
@@ -457,14 +457,16 @@ outer()
 
 ## LEGB规则
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250703104015339.png" alt="image-20250703104015339" style="zoom:60%;">
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250703104015339.png" alt="image-20250703104015339" style="zoom:60%;">
 
 ## 面向对象编程
 
 - Python完全采用了面向对象的思想，是真正面向对象的编程语言，完全支持面向对象的基本功能，例如：继承、多态、封装等。
 
 - 面向对象(Object oriented Programming,OOP)编程的主要思想是针对大型软件设计而来的。
+
 - 面向对象编程使程序的扩展性更强、可读性更好
+
 - 面向对象编程将**数据和操作数据相关的方法封装到对象中**，组织代码和数据的方式更加接近人的思维，从而大大提高了编程的效率。
 
   
@@ -478,7 +480,7 @@ outer()
 
 - 定义类的语法格式：
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250707161504670.png" alt="image-20250707161504670" style="zoom:115%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250707161504670.png" alt="image-20250707161504670" style="zoom:115%;" />
 
 1. 类名必须符合标识符的规则；一般规定首字母大写，多个单词使用驼峰原则。
 2. 类体中定义属性和方法
@@ -514,7 +516,7 @@ outer()
 
 ​	**Python中的self相当于C++中的self指针，JAVA和C#中的this关键字。**
 
-**Python中self必须为构造函数的第一个参数，名字可以任意修改。但一般都叫做self**
+​	**Python中self必须为构造函数的第一个参数，名字可以任意修改。但一般都叫做self**
 
 ## 实例属性和实例方法
 
@@ -558,7 +560,7 @@ class 类名：
 
 - 在类中或者类的外面，可以通过：类名.类变量来读写。
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250707181132004.png" alt="image-20250707181132004" style="zoom:50%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250707181132004.png" alt="image-20250707181132004" style="zoom:50%;" />
 
 ## 类方法
 
@@ -862,7 +864,7 @@ b.say()
 ​	多态：同一个方法调用，不同的对象行为完全不同。
 
 -    多态是方法的多态，属性没有多态
-- 多态存在有两个必要条件：继承、方法重写
+-    多态存在有两个必要条件：继承、方法重写
 
 ## 特殊方法和运算重载符
 
@@ -896,7 +898,7 @@ print(p1*3)
 
 Python对象中包含了很多双下划线开始和结束的属性，这些都是特殊属性。
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250708165653617.png" alt="image-20250708165653617" style="zoom:50%;" />
+<img src="/Users/guopengpeng/Python/Python/Python.assets/image-20250708165653617.png" alt="image-20250708165653617" style="zoom:50%;" />
 
 ## 继承和组合
 
@@ -931,7 +933,6 @@ m.screen.show()
 - 工厂模式实现了**创建者和调用者的分离**，使用专门的工厂类将选择实现类、创建对象进行统一的管理和控制
 
 ```python
-
 #工厂模式
 class Benz:
     pass

@@ -6,7 +6,7 @@
 
 ​	Python中引进了很多用来描述和处理异常的类，称为异常类。异常类定义中包含了该类异常的信息和对异常进行处理的方法。
 
-<img src="/Users/guopengpeng/Library/Application Support/typora-user-images/image-20250708222145829.png" alt="image-20250708222145829" style="zoom:100%;" />
+<img src="/Users/guopengpeng/Python/Python_Advance/python_advanced.assets/image-20250708222145829.png" alt="image-20250708222145829" style="zoom:100%;" />
 
 **Python中一切都是对象，异常也采用对象的方式来处理**。处理过程：
 
@@ -135,3 +135,69 @@ print('程序结束')
 7. `IndexError`：索引越界异常
 8. `KeyError`：字典的关键字不存在
 
+## with上下文管理
+
+​	无论有无异常，总能保证系统资源正常释放。`with`上下文管理可以自动管理资源，在`with`代码块执行完毕之后自动还原进入该代码之前的现场或上下文。
+
+```python
+with context_expr [as var]:
+		语句块
+```
+
+## traceback模块和生成异常日志
+
+```python
+#traceback模块
+import traceback
+try: 
+    print('step1')
+    num = 1/0
+except:
+    with open('/Users/guopengpeng/Python/Python_Advance/log.txt','a') as f:
+        traceback.print_exc(file=f)
+```
+
+## 自定义异常类
+
+​	自定义异常类一般都是运行时异常，通常继承`Exception`或其子类即可。命名一般以`Error`、`Exception`为后缀。自定义异常由`raise`主动抛出。
+
+```python
+#自定义异常类
+class AgeError(Exception):
+    def __init__(self,errorInfo):
+        Exception.__init__(self)
+        self.errorInfo = errorInfo
+    def __str__(self):
+        return str(self.errorInfo)+"，年龄错误！应该在1-150之间"
+    
+if __name__ == '__main__':#如果是True，则模块是作为独立文件执行，这下面可以写测试代码
+    age = int(input('输入一个年龄：'))
+    if(age<1 or age>150):
+        raise AgeError(age)
+    else:
+        print('年龄正常：',age)
+```
+
+## 文件操作
+
+### **文本文件和二进制文件**
+
+1. 文本文件
+
+   文本文件存储的是普通字符文本，Python默认为unicode字符集。（两个字节表示一个字符，最多可以标识：65536个）
+
+2. 二进制文件
+
+   二进制文件把数据内容用字节进行存储，无法用记事本打开。必须使用专用的软件解码。常见的有：MP4视频文件、MP3音频文件、JPG文件、doc文档等
+
+###  创建文件对象open()
+
+open()函数用于创建文件对象，基本语法格式如下：
+
+​		open(文件名[,打开方式])
+
+如果只是文件名，则代表在当前目录下的文件。文件名可以录入全路径，为了减少`\`的输入，可以使用原始字符串:`r"原始字符串"`。
+
+<img src="/Users/guopengpeng/Python/Python_Advance/python_advanced.assets/image-20250709150902240.png" alt="image-20250709150902240" style="zoom:100%;" />
+
+## 常用编码

@@ -54,3 +54,34 @@
 # print('继续执行其他代码') 
 # print('程序结束')
 
+# with上下文管理器
+# with open('/Users/guopengpeng/Python/Python_Advance/a.txt',"r") as f:
+#     for line in f:
+#         print(line)
+
+# #traceback模块
+# import traceback
+# try: 
+#     print('step1')
+#     num = 1/0
+# except:
+#     with open('/Users/guopengpeng/Python/Python_Advance/log.txt','a') as f:
+#         traceback.print_exc(file=f)
+        
+# #自定义异常类
+# class AgeError(Exception):
+#     def __init__(self,errorInfo):
+#         Exception.__init__(self)
+#         self.errorInfo = errorInfo
+#     def __str__(self):
+#         return str(self.errorInfo)+"，年龄错误！应该在1-150之间"
+    
+# if __name__ == '__main__':#如果是True，则模块是作为独立文件执行，这下面可以写测试代码
+#     age = int(input('输入一个年龄：'))
+#     if(age<1 or age>150):
+#         raise AgeError(age)
+#     else:
+#         print('年龄正常：',age)
+        
+  
+# print(2**16)
