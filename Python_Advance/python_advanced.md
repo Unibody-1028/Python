@@ -201,3 +201,142 @@ open()函数用于创建文件对象，基本语法格式如下：
 <img src="assets/image-20250709150902240.png" alt="image-20250709150902240" style="zoom:100%;" />
 
 ## 常用编码
+
+![image-20250714210513781](assets/image-20250714210513781.png)
+
+## 中文乱码问题
+
+​	`windows`操作系统默认的编码是`GBK`，`Linux`操作系统默认的是`UTF-8`.当我们用`open()`时，调用的是操作系统打开的文件，默认的编码是`GBK`。
+
+```python
+with open(r"a.txt","w",encoding="utf-8") as f:
+		f.write("你好")
+```
+
+## write()/writelines()写入数据
+
+`write(a):`把字符串a写入到文件中
+
+`writelines(b):`把字符串列表写入文件中，不添加换行符
+
+## close()关闭文件流
+
+​	由于文件系统底层是由操作系统控制，所以我们打开的文件对象必须显式调用`close()`方法关闭文件对象。当调用`close()`方法时，首先会把缓冲区数据写入文件(也可以直接调用`flush()`方法)，再关闭文件，释放文件对象。
+
+​	为了确保打开的文件对象正常关闭，一般结合异常机制的`finally`或者`with`关键字实现无论如何情况都能关闭打开的文件对象。
+
+```python
+try:
+    f = open(r'log.txt','r')
+    for i in f.readlines():
+        print(i,end='\t')
+except BaseException as e:
+    print(e)
+finally:
+    f.close()
+```
+
+## with语句(上下文管理器)
+
+​	上下文管理器可以自动管理上下文资源，不论什么原因跳出`with块`，都能确保文件正确的关闭，并且可以在代码块执行完毕后自动还原进入该代码块时的现场。
+
+## 文本文件的读取
+
+​	文件的读取一般使用如下三个方法：
+
+1. `read(size)`:从文件中读取size个字符，并作为结果返回。如果没有size参数，则读取整个文件。如果已经读取到文件末尾，再次调用会返回空字符串。
+2. `readline()`:读取一行内容作为结果返回。读取到文件末尾，会返回空字符串。
+3. `readlines()`：文本文件中，每一行作为一个字符串存入列表中，返回该列表。
+
+```python
+#逐行读取文件
+with open("a.txt","r",encoding="gbk") as f:
+		for line in f:    #文件对象本身就是一个迭代
+				print(line)
+        
+with open("a.txt","r",encoding="gbk") as f:
+  	while True：
+    		line = f.readline()
+      	if not line:
+          break
+        else:
+          print(line,end='')
+```
+
+## 二进制文件的读取和写入
+
+​	二进制文件的处理流程和文本文件流程一致。首先还是要创建文件对象，需要指定二进制模式从而创建出二进制文件对象。
+
+`f = open(r'a.txt','wb'):可写的、重写模式的二进制文件对象`
+
+`f = open(r'a.txt','ab')：可写的、追加模式的二进制文件对象`
+
+`f = open(r'a.txt','rb')：可读的二进制文件对象`
+
+## 文件对象的常用属性和方法
+
+​	文件对象封装了文件相关的操作
+
+![image-20250719235606107](assets/image-20250719235606107.png)
+
+![image-20250719235635424](assets/image-20250719235635424.png)
+
+![image-20250720000058274](assets/image-20250720000058274.png)
+
+## 使用pickle序列化
+
+​	序列化指的是：将对象转化成"串行化"的数据形式，存储到硬盘或者通过网络传输到其它地方。
+
+​	反序列化是指相反的过程，将读取到的"串行化数据"转化成对象。
+
+​	`pickle.dump(obj,file)` `obj` 就是要被序列化的对象，`file`指的是存储的文件
+
+​	`pickle.load(file)`  从`file`读取数据，反序列化成对象
+
+ 
+
+```python
+#使用pickle实现序列化和反序列化
+import pickle
+with open('data.dat','wb') as f:
+    score = [1,2,3]
+    pickle.dump(score,f)
+
+with open('data.dat','rb') as f:
+    score2 = pickle.load(f)
+    print(score2)
+```
+
+## CSV文件的操作
+
+​	CSV是逗号分隔符文本格式，常用于数据交换、Excel文件和数据库数据的导入和导出。
+
+![image-20250720002423765](assets/image-20250720002423765.png)
+
+```python
+#读取CSV文件
+import csv
+with open('a.csv') as f:
+    a_csv = csv.reader(f) #创建csv对象，它是一个包含所有数据的列表，每一行为一个元素
+    headers = next(a_csv) #获得列表对象，包含标题行的信息
+    print(headers)
+    print('----------')
+    for row in a_csv: #循环打印各行内容
+        print(row)
+
+
+#写入csv文件
+headers = ['name','age','salary']
+rows = [('Anna',22,12000),('David',24,10000)]
+with open('b.csv','w') as f:
+    b_csv = csv.writer(f)  #创建csv对象
+    b_csv.writerow(headers)#写入一行(标题)
+    b_csv.writerows(rows)  #写入多行(内容)
+```
+
+
+
+
+
+
+

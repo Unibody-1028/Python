@@ -85,3 +85,59 @@
         
   
 # print(2**16)
+
+# try:
+#     f = open(r'log.txt','r')
+#     for i in f.readlines():
+#         print(i,end='\t')
+# except BaseException as e:
+#     print(e)
+# finally:
+#     f.close()
+
+
+    
+# s = ['百度','阿里','腾讯']
+
+# with open('b.txt',encoding='utf-8',mode='a') as f:
+#     f.writelines(s)
+    
+#为文本文件每一行的末尾增加行号
+# with open('b.txt','r',encoding='utf-8') as f:
+#     lines = f.readlines()
+#     # print(lines)   
+#     lines2 = [line.rstrip()+" #"+str(index)+"\n" for  index,line in zip(range(1,len(lines)+1),lines)]
+#     print(lines2)
+# with open("c.txt",'a',encoding='utf-8')as f:
+#     f.writelines(lines2)
+
+# #使用pickle实现序列化和反序列化
+# import pickle
+# with open('data.dat','wb') as f:
+#     score = [1,2,3]
+#     pickle.dump(score,f)
+
+# with open('data.dat','rb') as f:
+#     score2 = pickle.load(f)
+#     print(score2)
+
+# #读取CSV文件
+# import csv
+# with open('a.csv') as f:
+#     a_csv = csv.reader(f) #创建csv对象，它是一个包含所有数据的列表，每一行为一个元素
+#     headers = next(a_csv) #获得列表对象，包含标题行的信息
+#     print(headers)
+#     print('----------')
+#     for row in a_csv: #循环打印各行内容
+#         print(row)
+
+
+# #写入csv文件
+# headers = ['name','age','salary']
+# rows = [('Anna',22,12000),('David',24,10000)]
+# with open('b.csv','w') as f:
+#     b_csv = csv.writer(f)  #创建csv对象
+#     b_csv.writerow(headers)#写入一行(标题)
+#     b_csv.writerows(rows)  #写入多行(内容)
+
+
