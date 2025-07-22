@@ -141,3 +141,103 @@
 #     b_csv.writerows(rows)  #写入多行(内容)
 
 
+# import os
+# # windows计算器
+# # os.system('Calc.exe')
+# # mac计算器
+# # os.system('open /System/Applications/Calculator.app')
+# # ping 百度
+# # os.system("ping www.baidu.com")
+
+# print(os.name)
+# print(os.sep)
+# print(repr(os.linesep)) #repr可以显示数据信息
+
+# a = '3'
+# print(a)
+# print(repr(a))
+# #获取文件和文件夹的相关信息
+# print(os.stat('pycode1.py'))
+# #关于工作目录的操作
+# print(os.getcwd()) #获得当前的工作目录
+
+# #改变当前的工作目录
+# os.chdir('/Users/guopengpeng/Python/Python_Advance')
+
+# #创建、删除目录
+# os.mkdir('1')
+# os.rmdir('1')
+
+# #创建多级目录
+# if not os.path.exists('电影/港台/周星驰'):
+#     os.makedirs('电影/港台/周星驰')
+    
+# #修改目录名
+# os.rename('电影','movie')
+# #列出子目录
+# print(os.listdir('movie'))
+# #删除多级目录
+# os.removedirs('movie/港台/周星驰')
+
+
+# # 测试os.path常用方法
+
+# import os
+# import os.path
+# # 获得当前目录
+# path = os.getcwd()
+# file_list = os.listdir(path) # 列出子目录和子文件
+# print(file_list)
+# # 取出.py文件
+# for file_name in file_list:
+#     if os.path.splitext(file_name)[1] == '.py':
+#         print(file_name)
+
+# # 推导式列出目录下的所有.py文件    
+# file_list2 = [file_name for file_name in os.listdir(path) if file_name.endswith('.py')]
+# print(file_list2)
+
+# # walk()递归遍历所有文件和目录
+# import os
+# path = os.getcwd()
+# list_files = os.walk(path,topdown=False) #False表示先遍历子目录
+
+# for root,dirs,files in list_files: #root表示当前遍历的目录,dirs表示root目录下的子目录,files表示root目录下的文件
+#     for file_name in files:
+#         print(os.path.join(root,file_name)) #打印文件
+#     for dir_name in dirs: 
+#         print(os.path.join(root,dir_name))  #打印目录
+
+
+# 实现文件的拷贝
+# import shutil
+# shutil.copyfile('a.txt','a_copy.txt')
+
+
+# # 递归遍历目录树
+# import os
+
+# def my_print_file(path,level):
+#     child_files = os.listdir(path) #先获取path路径下的所有文件和目录列表
+#     # 遍历获取到的文件和目录列表
+#     for file in child_files:
+#         # 将获取到的文件或目录与根目录拼接并打印
+#         file_path = os.path.join(path,file)
+#         print("\t"*level+file_path[file_path.rfind(os.sep)+1:])
+#         # 再次判断已经打印出的变量是否为目录
+#         if os.path.isdir(file_path):
+#             # 如果是目录，则继续查看子目录
+#             my_print_file(file_path,level+1)
+
+# my_print_file('电影',1)
+
+        
+# import math
+# help(math) 
+
+import salary
+print(salary.__doc__)
+print(salary.__name__)
+
+
+

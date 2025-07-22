@@ -334,6 +334,318 @@ with open('b.csv','w') as f:
     b_csv.writerows(rows)  #写入多行(内容)
 ```
 
+## os和os.path模块
+
+​	os模块可以直接对操作系统进行操作，调用操作系统的可执行文件、命令，直接操作文件、目录。
+
+```python
+import os
+# windows计算器
+# os.system('Calc.exe')
+# mac计算器
+# os.system('open /System/Applications/Calculator.app')
+# ping 百度
+# os.system("ping www.baidu.com")
+```
+
+## os模块-文件和目录操作
+
+![image-20250721154347659](assets/image-20250721154347659.png)
+
+![image-20250721155234416](assets/image-20250721155234416.png)
+
+```python
+import os
+# windows计算器
+# os.system('Calc.exe')
+# mac计算器
+# os.system('open /System/Applications/Calculator.app')
+# ping 百度
+# os.system("ping www.baidu.com")
+
+print(os.name)
+print(os.sep)
+print(repr(os.linesep)) #repr可以显示数据信息
+
+a = '3'
+print(a)
+print(repr(a))
+#获取文件和文件夹的相关信息
+print(os.stat('pycode1.py'))
+#关于工作目录的操作
+print(os.getcwd()) #获得当前的工作目录
+
+#改变当前的工作目录
+os.chdir('/Users/guopengpeng/Python/Python_Advance')
+
+#创建、删除目录
+os.mkdir('1')
+os.rmdir('1')
+
+#创建多级目录
+if not os.path.exists('电影/港台/周星驰'):
+    os.makedirs('电影/港台/周星驰')
+    
+#修改目录名
+os.rename('电影','movie')
+#列出子目录
+print(os.listdir('movie'))
+#删除多级目录
+os.removedirs('movie/港台/周星驰')
+
+
+```
+
+## os.path模块
+
+![image-20250721161957572](assets/image-20250721161957572.png)
+
+```python
+# 测试os.path常用方法
+
+import os
+import os.path
+# 获得当前目录
+path = os.getcwd()
+file_list = os.listdir(path) # 列出子目录和子文件
+print(file_list)
+# 取出.py文件
+for file_name in file_list:
+    if os.path.splitext(file_name)[1] == '.py':
+        print(file_name)
+
+# 推导式列出目录下的所有.py文件    
+file_list2 = [file_name for file_name in os.listdir(path) if file_name.endswith('.py')]
+print(file_list2)
+
+
+```
+
+## walk()递归遍历所有文件和目录
+
+![image-20250721164559377](assets/image-20250721164559377.png)
+
+```python
+# walk()递归遍历所有文件和目录
+import os
+path = os.getcwd()
+list_files = os.walk(path,topdown=False) #False表示先遍历子目录
+
+for root,dirs,files in list_files: #root表示当前遍历的目录,dirs表示root目录下的子目录,files表示root目录下的文件
+    for file_name in files:
+        print(os.path.join(root,file_name)) #打印文件
+    for dir_name in dirs: 
+        print(os.path.join(root,dir_name))  #打印目录
+```
+
+## shutil模块(拷贝和压缩)
+
+​	`shutil`模块是python标准库中提供的，主要用来做文件和文件夹的拷贝、移动、删除等；还可以做文件和文件夹的压缩、解压缩操作。
+
+​	`os`模块提供了对目录或文件的一般操作。`shutil`模块作为补充，提供移动、复制、压缩、解压等操作。
+
+```python
+# 实现文件的拷贝
+import shutil
+shutil.copyfile('a.txt','a_copy.txt')
+```
+
+```python
+# 实现递归的拷贝文件夹内容
+# 将文件夹'电影/学习'下面的内容拷贝到文件夹'音乐'下。拷贝时忽略所有的html和htm文件
+import shutil
+# 音乐文件夹不存在才能使用
+shutil.copytree("电影/学习","音乐",ignore=shutil.ignore_patterns('*.html','*htm'))
+```
+
+```python
+#压缩与解压缩
+import shutil
+shutil.make_archive('d:/test,'zip','d:/aaa') #将windows D盘下的aaa文件夹压缩成test，格式为zip
+
+#将指定的多个文件压缩到一个zip文件中
+import zipfile
+z = zipfile.ZipFile('a.zip','w')
+z.write('a.txt')
+z.write('b.txt')
+z.write('c.txt')
+z.close()
+
+                    
+#解压缩                   
+z2 = zipfile.ZipFile('a.zip','r') 
+z2.extractall('d:/')                    
+```
+
+## 递归遍历目录下所有的文件
+
+```python
+# 递归遍历目录树
+import os
+
+def my_print_file(path,level):
+    child_files = os.listdir(path) #先获取path路径下的所有文件和目录列表
+    # 遍历获取到的文件和目录列表
+    for file in child_files:
+        # 将获取到的文件或目录与根目录拼接并打印
+        file_path = os.path.join(path,file)
+        print("\t"*level+file_path[file_path.rfind(os.sep)+1:])
+        # 再次判断已经打印出的变量是否为目录
+        if os.path.isdir(file_path):
+            # 如果是目录，则继续查看子目录
+            my_print_file(file_path,level+1)
+
+my_print_file('电影',1)
+        
+```
+
+## 模块化(module)程序设计理念
+
+### 模块和包概念的进化史
+
+<img src="assets/image-20250721204923401.png" alt="image-20250721204923401" style="zoom:100%;" />
+
+1. Python程序由模块组成。一个模块对应Python源文件，一般后缀名为.py。
+2. 模块由语句组成。运行Python程序时，按照模块中语句的顺序依次执行。
+3. 语句是Python程序的构造单元，用于创建对象、变量赋值、调用函数、控制语句等。
+
+###  标准库模块(standard library)
+
+![image-20250721205909109](assets/image-20250721205909109.png)
+
+### 为何需要模块化编程
+
+![image-20250721210028887](assets/image-20250721210028887.png)
+
+模块化编程的优势：
+
+1. 便于将一个任务分解成多个模块，实现团队协同开发，完成大规模程序。
+2. 实现代码复用，一个模块实现后，可以被反复调用。
+3. 增强代码的可维护性。
+
+### 模块化编程的流程
+
+​	模块化编程的一般流程：
+
+1. 设计API，进行功能描述。
+2. 编码实现API中描述的功能
+3. 在模块中编写测试代码，并消除全局代码
+4. 使用私有函数实现不被外部客户端调用的模块函数。
+
+### 模块的API和功能描述要点
+
+​	API(Application Programming Interface 应用程序编程接口)是用于描述模块中提供的函数和类的功能描述和使用方法描述。
+
+​	模块化编程中，首先设计的就是模块的API（即要实现的功能描述），然后编码实现API中描述的功能。最后，在其他模块中导入本模块进行调用。
+
+## 模块的导入
+
+​	模块化设计的好处之一就是“代码复用性高”。写好的模块可以被反复调用，重复使用。模块的导入就是在本模块中使用其他模块。
+
+### import语句导入
+
+```python
+import 模块名
+import 模块一,模块二
+import 模块名 as 模块别名 
+```
+
+`import`加载的模块分为四种类型：
+
+1. 使用Python编写的代码`.py`文件
+2. 已经被编译为共享库或者DDL的C或C++扩展
+3. 一组模块的包
+4. 使用C编写并链接到Python解释器的内置模块
+
+使用import导入一个模块时，本质上是使用了内置函数`__import__()`。Python解释器会生成一个对象，这个对象就代表了被加载的模块。
+
+### from...import导入
+
+Python可以使用from...import导入模块中的成员
+
+`from 模块名 import 成员1,成员2...`
+
+如果希望导入一个模块中所有的成员，则可以使用：
+
+`from 模块名 import *`
+
+### `__import__()`动态导入
+
+`import`语句本质上是调用内置函数`__import__()`，可以通过它实现动态导入，给`__import__()`动态传入不同的参数值，就能导入不同的模块
+
+```python
+# 使用__import__()动态导入指定的模块
+s = 'math'
+m = __import__(s) #导入后生成的模块对象的引用给变量m
+print(m.pi)
+```
+
+动态导入一般使用importlib模块
+
+```python
+import importlib
+a = importlib.import_module('math')
+print(a.pi)
+```
+
+### 模块的加载问题
+
+当导入一个模块时，模块中的代码都会被执行。如果再次导入该模块，则不会再次执行。
+
+**一个模块无论导入多少次，这个模块在解释器进程内有且仅有一个实例对象。**
+
+### 模块的重新加载
+
+```python
+import importlib
+importlib.reload('模块名')
+```
+
+## 包(package)的使用
+
+包就是一个必须有`__init__.py`的文件夹。结构如下：
+
+<img src="assets/image-20250722085649492.png" alt="image-20250722085649492" style="zoom:50%;" />
+
+包下面可以包含模块(module)，也可以再包含子包(subpackage)。
+
+<img src="assets/image-20250722090513391.png" alt="image-20250722090513391" style="zoom:50%;" />
+
+导入包的本质是**导入了包的`__init__.py`文件**，也就是说，`import package`意味着执行了包`package`下面的`__init__.py`文件。
+
+`__init__.py`的三个核心作用：
+
+1. 作为包的标识，不能删除。
+2. 导入包实质上是执行`__init__.py`文件，可以在`__init__.py`文件中做这个包的初始化。
+
+## 包的模糊导入
+
+​	`import *`这样的语句是希望文件系统找出包中所有的子模块，然后导入他们，会耗费很长时间，解决方案是提供一个明确的包索引。
+
+​	这个索引由`__init__.py`定义`__all__`变量，该变量是一个列表，例如：`__all__=['module1','module2']`
+
+导入包时，只会导入`__all__`指定的模块。
+
+## 库(Library)
+
+通常将某个功能的"模块的集合"称为库
+
+### 标准库(Standard Library)
+
+<img src="assets/image-20250722100951917.png" alt="image-20250722100951917" style="zoom:50%;" />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
