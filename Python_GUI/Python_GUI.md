@@ -73,7 +73,17 @@ root.mainloop() # 调用组件的mainloop()方法，进入事件循环
 
 ​	Frame框架是一个tkinter组件，表示一个矩形的区域。Frame一般作为容器使用，可以放置其他组件，从而实现复杂的布局。
 
+## Label标签
 
+Label(标签)主要用于显示文本信息，也可以显示图像。
+
+​	常见属性如下：
+
+1. width，height：用于指定区域大小，如果显示是文本，则以单个英文字符大小为单位(一个汉字宽度占两个字符位置，高度和英文字符一样)；如果显示为图像，则以像素为单位。默认值是根据具体显示的内容动态调整。
+2. font：指定字体和字体大小，如：font=（font_name，size）
+3. image：显示在Label上的图像，目前tkinter只支持gif格式。
+4. fg和bg：fg（foreground）：前景色、bg（background）：背景色
+5. justify（对齐方式）
 
 
 
