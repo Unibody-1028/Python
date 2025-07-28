@@ -1,5 +1,5 @@
-# 未使用线程同步和互斥锁
-from threading import Thread
+# 互斥锁
+from threading import Thread,Lock
 from time import sleep
 
 
@@ -17,17 +17,24 @@ class Drawing(Thread):
         self.account = account
         self.expenseTotal = 0
     def run(self):
-        if self.account.money<self.drawingNum:
-            return
-        sleep(1) # 测试冲突问题
-        self.account.money -= self.drawingNum
-        self.expenseTotal += self.drawingNum
+        global lock
+        # 获取锁
+        #lock.acquire()
+        with lock:
+            if self.account.money<self.drawingNum:
+                print("账户余额不足")
+                return
+            #sleep(1) # 测试冲突问题
+            self.account.money -= self.drawingNum
+            self.expenseTotal += self.drawingNum
 
-        print("账户名:{},余额:{}".format(self.account.name,self.account.money))
-        print("账户名:{},总共取出金额为:{}".format(self.account.name,self.expenseTotal))
-
+            print("账户名:{},余额:{}".format(self.account.name,self.account.money))
+            print("账户名:{},总共取出金额为:{}".format(self.account.name,self.expenseTotal))
+        #lock.release()
 if __name__ == '__main__':
     a1 = Account("Jack",100)
+    # 互斥锁
+    lock = Lock()
     draw1 = Drawing(80,a1) # 第一个取钱的线程
     draw2 = Drawing(100,a1)
     # 启动线程

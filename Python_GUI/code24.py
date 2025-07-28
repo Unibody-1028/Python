@@ -1,15 +1,11 @@
-"""简单对话框"""
+"""通用消息框"""
 from tkinter import  *
-from tkinter.simpledialog import *
+from tkinter.messagebox import *
 
 root = Tk()
 root.geometry("400x200")
-def test1():
-    a = askinteger(title="输入年龄",prompt="请输入年龄",initialvalue=18,minvalue=1,maxvalue=128)
-    show['text'] = a
-Button(root,text="你的年龄是？请输入",command=test1).pack()
 
-show = Label(root,width=40,height=3,bg="yellow")
-show.pack()
-
+a1 = showinfo(title="Python",message="学Python")
+print(a1)# 打印ok
 root.mainloop()
+

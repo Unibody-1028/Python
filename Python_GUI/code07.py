@@ -3,8 +3,9 @@ from tkinter import *
 from tkinter import messagebox
 
 class Application(Frame):
-    def __int__(self,master=None):
+    def __init__(self,master=None):
         super().__init__(master)
+        self.master = master
         self.pack()
         self.createWidget()
 
@@ -20,7 +21,7 @@ class Application(Frame):
 
         #组件左对齐
         self.r1.pack(side="left")
-        self.r2.pack(self="left")
+        self.r2.pack(side="left")
         Button(self,text="确定",command=self.confirm).pack(side="left")
 
 
@@ -32,6 +33,6 @@ class Application(Frame):
 if __name__ =='__main__':
     root = Tk()
     root.geometry("800x600+300+300")
-    app = Application(root)
-    root.wm_attributes("-topmost",True)
+    app = Application(master=root)
+    #root.wm_attributes("-topmost",True)
     root.mainloop()

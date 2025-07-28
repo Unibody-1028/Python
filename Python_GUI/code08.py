@@ -1,32 +1,37 @@
-"""测试Radiobutton按钮"""
+"""测试Checkbutton按钮"""
 from tkinter import *
 from tkinter import messagebox
 
 class Application(Frame):
     def __init__(self,master=None):
-        super().__init__(master)
+        super().__init__(master) # super()代表的是父类的定义，而不是父类对象
         self.master = master
         self.pack()
         self.createWidget()
 
 
     def createWidget(self):
-        # 变量v存放Radiobutton选中的值
-        self.v = StringVar()
-        # 变量v初始化为F，并且Radiobutton默认选择value="F"的选项
-        self.v.set("F")
+        self.codeHobby = IntVar()
+        self.videoHobby = IntVar()
+        print(self.codeHobby.get()) # 默认是0
 
-        self.r1 = Radiobutton(self,text="男性",value="M",variable=self.v)
-        self.r2 = Radiobutton(self,text="女性",value="F",variable=self.v)
+        self.c1 = Checkbutton(self,text="敲代码",variable=self.codeHobby,onvalue=1,offvalue=0)
+        self.c2 = Checkbutton(self,text="看视频",variable=self.videoHobby,onvalue=1,offvalue=0)
 
-        #组件左对齐
-        self.r1.pack(side="left")
-        self.r2.pack(side="left")
-        Button(self,text="确定",command=self.confirm).pack(side="left")
+        self.c1.pack(side="left")
+        self.c2.pack(side="left")
+
+        Button(self,text="确定",command=self.confirm).pack(side="bottom")
+
+
 
 
     def confirm(self):
-        messagebox.showinfo("测试",message="选择的性别"+self.v.get())
+        if self.codeHobby.get() == 1:
+            messagebox.showinfo(message="我是程序猿")
+        if self.videoHobby.get() ==1:
+            messagebox.showinfo(message="我喜欢刷短视频")
+
 
 
 

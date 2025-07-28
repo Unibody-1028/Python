@@ -28,8 +28,10 @@ class Application(Frame):
         self.label03.pack()
 
         # 多行文本
-        self.label04 = Label(self,text="多行文本的第一行\n多行文本的第二行\n多行文本的第三行\n",borderwidth=1,
-                             relief="solid",justify="center",
+        self.label04 = Label(self,text="多行文本的第一行\n多行文本的第二行\n多行文本的第三行\n",
+                             borderwidth=1, # 边框宽度
+                             relief="solid", # 设置组件的3D样式
+                             justify="center", # 文本内容居中
                              height=5,    # 增加高度容纳多行文本
                              wraplength=400, # 设置自动换行宽度
                              bg="lightgray" # 设置背景色使其更加明显
@@ -39,7 +41,7 @@ class Application(Frame):
 if __name__=='__main__':
 
     root = Tk()
-    root.geometry('1920x1080')
+    root.geometry('1200x800+150+100')
     # 将窗口置顶
     root.wm_attributes("-topmost", True)
     app = Application(master=root)
