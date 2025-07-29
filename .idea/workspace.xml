@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642992a6-e0a7-4af2-8f70-be5b2a28b530" name="Changes" comment="7 23 2025 a simply GUI program">
-      <change afterPath="$PROJECT_DIR$/Python_GUI/code03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_GUI/code04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_GUI/code05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_GUI/code06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_GUI/code07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_GUI/image/doro.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/Event事件的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/信号量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/生产者消费者模式.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python/Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python/Python.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_GUI/Python_GUI.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python_GUI/Python_GUI.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_GUI/code3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python_Networking and concurrent programming/Python_Networking and concurrent programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/Python_Networking and concurrent programming.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,36 +66,67 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Event事件的使用.executor": "Run",
     "Python.code01.executor": "Run",
     "Python.code02.executor": "Run",
     "Python.code03.executor": "Run",
     "Python.code04.executor": "Run",
     "Python.code05.executor": "Run",
     "Python.code06.executor": "Run",
+    "Python.code07.executor": "Run",
+    "Python.code08.executor": "Run",
+    "Python.code09.executor": "Run",
+    "Python.code10.executor": "Run",
+    "Python.code11.executor": "Run",
+    "Python.code12.executor": "Run",
+    "Python.code13.executor": "Run",
+    "Python.code14.executor": "Run",
+    "Python.code15.executor": "Run",
+    "Python.code16.executor": "Run",
+    "Python.code17.executor": "Run",
+    "Python.code18.executor": "Run",
+    "Python.code19.executor": "Run",
+    "Python.code20.executor": "Run",
+    "Python.code21.executor": "Run",
+    "Python.code22.executor": "Run",
+    "Python.code23.executor": "Run",
+    "Python.code24.executor": "Run",
+    "Python.code25.executor": "Run",
     "Python.code3.executor": "Run",
     "Python.code7.executor": "Run",
+    "Python.join方法测试.executor": "Run",
+    "Python.notebook.executor": "Run",
+    "Python.信号量.executor": "Run",
+    "Python.多个线程访问一个资源+互斥锁.executor": "Run",
+    "Python.多个线程访问一个资源.executor": "Run",
+    "Python.守护线程.executor": "Run",
+    "Python.方法模式创建线程.executor": "Run",
+    "Python.死锁案例.executor": "Run",
+    "Python.生产者消费者模式.executor": "Run",
+    "Python.类包装创建线程.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/guopengpeng/Python/Python_GUI/image",
+    "last_opened_file_path": "/Users/guopengpeng/Python/Python_Networking and concurrent programming",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "settings.sync",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Python_GUI/image" />
+      <recent name="$PROJECT_DIR$/Python_Networking and concurrent programming" />
       <recent name="$PROJECT_DIR$/Python_GUI" />
+      <recent name="$PROJECT_DIR$/Python_GUI/image" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.code07">
-    <configuration name="code02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.生产者消费者模式">
+    <configuration name="多个线程访问一个资源" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -111,12 +135,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_GUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_GUI/code02.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/多个线程访问一个资源.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="code04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="生产者消费者模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,12 +158,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_GUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_GUI/code04.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/生产者消费者模式.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +172,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="code05" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Event事件的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,12 +181,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_GUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_GUI/code05.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/Event事件的使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,7 +195,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="code06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="多个线程访问一个资源+互斥锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,12 +204,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_GUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_GUI/code06.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/多个线程访问一个资源+互斥锁.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +218,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="code07" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="死锁案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -203,12 +227,35 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_GUI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_GUI/code07.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/死锁案例.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="信号量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/信号量.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,11 +266,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.code07" />
-        <item itemvalue="Python.code06" />
-        <item itemvalue="Python.code05" />
-        <item itemvalue="Python.code04" />
-        <item itemvalue="Python.code02" />
+        <item itemvalue="Python.生产者消费者模式" />
+        <item itemvalue="Python.多个线程访问一个资源+互斥锁" />
+        <item itemvalue="Python.多个线程访问一个资源" />
+        <item itemvalue="Python.Event事件的使用" />
       </list>
     </recent_temporary>
   </component>
@@ -252,6 +298,10 @@
       <workItem from="1753195659185" duration="1003000" />
       <workItem from="1753196677400" duration="16170000" />
       <workItem from="1753375034648" duration="8016000" />
+      <workItem from="1753532855677" duration="48225000" />
+      <workItem from="1753763349423" duration="8000" />
+      <workItem from="1753763617743" duration="134000" />
+      <workItem from="1753763986082" duration="4428000" />
     </task>
     <task id="LOCAL-00001" summary="7 23 2025 a simply GUI program">
       <option name="closed" value="true" />
@@ -283,12 +333,36 @@
     <option name="LAST_COMMIT_MESSAGE" value="7 23 2025 a simply GUI program" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python$code19.coverage" NAME="code19 覆盖结果" MODIFIED="1753598477354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code10.coverage" NAME="code10 覆盖结果" MODIFIED="1753543999789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code16.coverage" NAME="code16 覆盖结果" MODIFIED="1753588321848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code25.coverage" NAME="code25 覆盖结果" MODIFIED="1753607369974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code02.coverage" NAME="code02 覆盖结果" MODIFIED="1753375009947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code24.coverage" NAME="code24 覆盖结果" MODIFIED="1753604851740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
     <SUITE FILE_PATH="coverage/Python$code3.coverage" NAME="code03 覆盖结果" MODIFIED="1753373184725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code05.coverage" NAME="code05 覆盖结果" MODIFIED="1753378117237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$notebook.coverage" NAME="notebook 覆盖结果" MODIFIED="1753624307940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code18.coverage" NAME="code18 覆盖结果" MODIFIED="1753597942223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
     <SUITE FILE_PATH="coverage/Python$code01.coverage" NAME="code01 覆盖结果" MODIFIED="1753374983537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
     <SUITE FILE_PATH="coverage/Python$code04.coverage" NAME="code04 覆盖结果" MODIFIED="1753375731565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code7.coverage" NAME="code7 覆盖结果" MODIFIED="1753532791590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code07.coverage" NAME="code07 覆盖结果" MODIFIED="1753533190553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$_.coverage" NAME="多个线程访问一个资源+互斥锁 覆盖结果" MODIFIED="1753703762939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$code22.coverage" NAME="code22 覆盖结果" MODIFIED="1753603480390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code13.coverage" NAME="code13 覆盖结果" MODIFIED="1753547213069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code09.coverage" NAME="code09 覆盖结果" MODIFIED="1753542772284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$Event.coverage" NAME="Event事件的使用 覆盖结果" MODIFIED="1753712316146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$join.coverage" NAME="join方法测试 覆盖结果" MODIFIED="1753666980728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$code12.coverage" NAME="code12 覆盖结果" MODIFIED="1753546440632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code20.coverage" NAME="code20 覆盖结果" MODIFIED="1753602251199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
     <SUITE FILE_PATH="coverage/Python$code06.coverage" NAME="code06 覆盖结果" MODIFIED="1753531416120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code02.coverage" NAME="code02 覆盖结果" MODIFIED="1753375009947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code11.coverage" NAME="code11 覆盖结果" MODIFIED="1753545448452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code15.coverage" NAME="code15 覆盖结果" MODIFIED="1753587364095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code21.coverage" NAME="code21 覆盖结果" MODIFIED="1753603203950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code08.coverage" NAME="code08 覆盖结果" MODIFIED="1753533776278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code14.coverage" NAME="code14 覆盖结果" MODIFIED="1753585482077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code05.coverage" NAME="code05 覆盖结果" MODIFIED="1753378117237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code7.coverage" NAME="code7 覆盖结果" MODIFIED="1753532791590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$code23.coverage" NAME="code23 覆盖结果" MODIFIED="1753604224888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="生产者消费者模式 覆盖结果" MODIFIED="1753774068814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$code17.coverage" NAME="code17 覆盖结果" MODIFIED="1753589584001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
   </component>
 </project>

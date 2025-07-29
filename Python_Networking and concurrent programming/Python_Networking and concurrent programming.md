@@ -276,7 +276,7 @@ if __name__ == '__main__':
 
 在多线程程序中，死锁问题很大一部分是由一个线程同时获取多个锁造成的
 
-## 信号量
+## 信号量(Semaphore)
 
 ​	信号量控制同时访问资源的数量。信号量和锁类似，锁同一时间只允许一个对象（进程）通过，信号量同一时间允许多个对象（进程）通过。
 
@@ -289,5 +289,132 @@ if __name__ == '__main__':
 
 ​	信号量底层实现就是一个内置的计数器。每当资源获取时（调用acquire）计数器-1，资源释放时（调用release）计数器+1。
 
+## 事件(Event)
 
+事件Event主要用于唤醒正在阻塞的进程。
+
+**原理**
+
+​	Event对象包含一个可由线程设置的信号标志，它允许线程等待某些事件的发生。在初始情况下，event对象中的信号标志被设置为假。**如果有线程等待一个event对象，而这个event对象的标志为假，那么这个线程将会被一直阻塞直到该标志为真。**一个线程如果将一个event对象的信号标志设置为真，那么它将唤醒所有等待这个event对象的线程。<u>如果一个线程等待一个已经被设置为真的event对象，那么它将忽略这个事件，继续执行。</u>
+
+![image-20250728220541207](assets/image-20250728220541207.png)
+
+```
+import threading
+import time
+
+
+def chihuoguo(name):
+    # 等待事件，进入等待阻塞状态
+    print(name+"已经启动")
+    print(name+"已经进入就餐状态")
+    time.sleep(1)
+    event.wait()
+    # 收到事件通知后进入运行状态
+    print(name+"收到通知")
+    print("开始干饭")
+
+if __name__ == '__main__':
+    event = threading.Event()
+    t1 = threading.Thread(target=chihuoguo,args=("Tom",))
+    t2 = threading.Thread(target=chihuoguo,args=("Jack",))
+    # 开启线程
+    t1.start()
+    t2.start()
+
+    time.sleep(5)
+    # 发送事件通知
+    print("主线程通知：开始干饭")
+    event.set()
+```
+
+## 生产者消费者模式
+
+### 缓冲区
+
+缓冲区是实现并发的核心，缓冲区的设置有3个好处。
+
+1. 实现线程的并发协作
+
+    ​	有缓冲区以后，生产者线程只需要往缓冲区里面放置数据，而不需要管理消费者消费；同样，消费者只需要从缓冲区拿数据即可。这样就实现了"生产者线程"和"消费者线程"的分离
+
+2. 解耦了生产者和消费者
+
+    生产者不需要和消费者交互
+
+3. 解决忙闲不均，提高效率
+
+    生产者/消费者进程受阻时，消费者/生产者仍然可以从缓冲区内拿取/存放数据。
+
+### 缓冲区和queue对象
+
+​	从一个线程向另一个线程发送数据最安全的方式是使用queue库里的队列。创建一个被多个线程共享的Queue对象，这些线程通过使用put()和get()操作向队列里添加或删除元素。Queue对象已经包含了必要的锁，所以可以通过它在多个线程间安全的共享数据。
+
+```
+from queue import Queue
+from threading import Thread
+from time import sleep
+
+
+def producer():
+    while True:
+        global num
+        num += 1
+        if queue.qsize() < 8:
+            print("正在生产{}号馒头".format(num))
+            queue.put("馒头{}号".format(num))
+        else:
+            print("馒头框已满，等待消费中")
+        sleep(1)
+
+def consumer():
+    while True:
+        print("消费{}".format(queue.get()))
+        sleep(1)
+
+if __name__ == '__main__':
+    num = 0
+    queue = Queue()
+    # 创建生产者消费者线程
+    p1 = Thread(target=producer)
+    c1 = Thread(target=consumer)
+    # 指定为守护线程
+    p1.daemon = True
+    c1.daemon = True
+    # 启动线程
+    p1.start()
+    c1.start()
+    #
+    sleep(10)
+    print("主线程结束，守护线程将随之终止，不再生产消费馒头")
+```
+
+## 进程Process
+
+​	![image-20250729153006543](assets/image-20250729153006543.png)
+
+​	进程(Process)：拥有自己独立的堆和栈，既不共享堆，也不共享栈，进程由操作系统调度；进程切换时耗费的资源很多，效率低。
+
+### 进程的优缺点
+
+进程的优点：
+
+1. 可以使用计算机多核，进行任务的并行执行，提高执行效率
+2. 运行不受其它进程影响，创建方便
+3. 空间独立，数据安全
+
+进程的缺点：
+
+- 进程的创建和销毁消耗的系统资源较多
+
+### 进程的创建方式
+
+Python的标准库提供了：`multiprocessing`
+
+进程的创建可以通过两种方式：
+
+1. 方法包装
+2. 类包装
+
+创建进程后，使用start()启动进程。
 
