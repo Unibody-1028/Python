@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax简单封装</title>
+</head>
+<body>
+      <h1>Ajax简单封装</h1>
+      <input type="button" value="获取响应数据" onclick="get_data()">
+      <script>
+        function get_data() {
+          Ajax({
+            type:'get',
+            url:'http://httpbin.org/get'
+          })
+          Ajax({
+            type:'post',
+            url:'http://httpbin.org/post'
+          })
+        }
+        function Ajax(options) {
+          // options是一个json数据,包含type、url
+
+          // 创建一个xhr对象
+          let xhr = new XMLHttpRequest()
+          // 配置对象
+          xhr.open(options.type,options.url)
+          // 发送请求
+          xhr.send()
+          // 获取响应
+          xhr.onreadystatechange = () =>{
+            // 判断是否完成请求
+            if (xhr.readyState == 4 && xhr.status ==200)
+              console.log(xhr.responseText)
+              // alert(xhr.responseText)
+
+          }
+
+        }
+
+      </script>
+
+
+</body>
+</html>

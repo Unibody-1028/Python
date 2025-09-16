@@ -2,7 +2,7 @@ from socket import *
 client_socket = socket(AF_INET,SOCK_STREAM)
 client_socket.connect(("127.0.0.1",8888)) # 连接服务端
 while True:
-    msg = input("请输入内容")
+    msg = input("请输入内容:")
     client_socket.send(msg.encode("utf-8"))
     if msg == "88":
         break

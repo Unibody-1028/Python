@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <span>中国大陆</span>&nbsp;&nbsp;
+    {% if not user %}
+        <a href="{{url_for('login',user='bob')}}">亲,请登录</a>&nbsp;&nbsp;
+        <span>免费注册</span>&nbsp;&nbsp;
+    {% else %}
+        <span>{{user}}</span>&nbsp;&nbsp;
+
+    {% endif %}
+
+
+    <span>手机逛淘宝</span>&nbsp;&nbsp;
+
+</body>
+</html>

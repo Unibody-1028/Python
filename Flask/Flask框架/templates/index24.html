@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>转义字符过滤器</title>
+</head>
+<body>
+  <h1>转义字符过滤器</h1>
+<!--<script>alert("Hello")</script>-->
+<!--模版中默认对字符进行了转义-->
+<!--      转义后的数据是:{{info}}<br>-->
+<!--      转义前的数据是:{{info|safe}}-->
+
+<!--flase表示不再转义特殊字符,true表示转义特殊字符,默认为true-->
+  {% autoescape false %}
+  {{info}}
+  {% endautoescape %}
+
+</body>
+</html>

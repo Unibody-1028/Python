@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>静态文件的引入</title>
+    <script src="{{url_for('static',filename='js/test.js')}}"></script>
+    <link href="{{url_for('static',filename='css/test.css')}}" type="text/css" rel="stylesheet"></link>
+
+
+</head>
+<body>
+      <h1>静态文件的引入</h1>
+
+      <img src="static/imgs/img1.png" height="400"><br>
+      <img src="static/imgs/img2.png"><br>
+      <img src="{{url_for('static',filename='imgs/img2.png')}}">
+</body>
+</html>

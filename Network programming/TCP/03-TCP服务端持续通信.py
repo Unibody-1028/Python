@@ -12,7 +12,7 @@ while True:
     print(f"收到信息:{recv_data.decode('utf-8')},来自{client_info}")
     if recv_data.decode('utf-8') == "88":
         break
-    msg = input("请输入")
+    msg = input("请输入:")
     client_socket.send(msg.encode("utf-8"))
 
 client_socket.close()

@@ -12,3 +12,7 @@ source shop_env/bin/activate
 # 激活后终端前缀会显示 (shop_env)，表示激活成功
 # 后续安装依赖（如 flask）会自动安装到该虚拟环境中
 
+# 查看端口占用 sudo lsof -i tcp:8088
+# 终止进程 sudo kill -9 PID
+
+

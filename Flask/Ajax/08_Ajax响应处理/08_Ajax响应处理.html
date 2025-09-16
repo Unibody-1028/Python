@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax响应处理</title>
+</head>
+<body>
+        <h1>Ajax响应处理</h1>
+        <input type="button" value="获取响应数据get" onclick="get_data_get()">
+        <input type="button" value="获取响应数据post" onclick="get_data_post()">
+
+        <script>
+        function Ajax(options) {
+            /**
+             * options:
+             * type:请求的方式
+             * url:请求的地址
+             * data:请求参数,json类型
+             * success:请求成功以后,如何处理
+             * error:请求失败如何处理
+             * **/
+
+            // 处理请求的参数,将参数使用&拼接
+            let params = ''
+            for (let key in options.data) {
+                value = options.data[key]
+                params = params + key + '=' + value + '&'
+            }
+            // 去掉多余的&
+            params = params.substring(0, params.length - 1)
+            // console.log(params)
+
+            // 判断请求类型
+            // 如果是get请求,则直接将参数拼接到url
+            if (options.type == 'get') {
+                options.url = options.url + '?' + params
+            }
+
+            let xhr = new XMLHttpRequest()
+            xhr.open(options.type, options.url)
+            // 如果是post请求,则将参数使用send()函数发送
+            if (options.type == 'post') {
+                xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
+                xhr.send(params)
+            } else {
+                xhr.send()
+            }
+            // 接收响应
+            xhr.onreadystatechange = () =>{
+                if(xhr.readyState == 4) {
+                    if(xhr.status == 200){
+                        options.success(xhr.responseText)
+                    }else {
+                    options.error(xhr.status)
+                    }
+                }
+            }
+            // 网络请求失败
+            xhr.onerror = () =>{
+                options.error('1000:网络错误')
+            }
+
+
+        }
+        
+        function get_data_get() {
+            Ajax({
+                type:'get',
+                url:'http://httpbin.org/get',
+                data:{'name':'jack','pwd':123456},
+                success:function (data){
+                    console.log(data)
+                },
+                error:function (data){
+                    console.log('返回的状态码是:'+data)
+                }
+            })
+            
+        }
+
+
+        </script>
+</body>
+</html>

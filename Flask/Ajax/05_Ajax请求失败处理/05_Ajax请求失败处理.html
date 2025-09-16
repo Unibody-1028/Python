@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax请求失败处理</title>
+</head>
+<body>
+      <h1>Ajax请求失败处理</h1>
+      <input type="button" value="获取响应数据" onclick="get_data()">
+
+      <script>
+        function get_data() {
+          // 创建xhr对象
+          let xhr = new XMLHttpRequest()
+          // 设置请求的方式与请求地址
+          xhr.open('get','http://httpbin.org/get')
+          // 发送请求
+          xhr.send()
+          // 获取服务器响应
+          xhr.onreadystatechange = () => {
+            // 判断Ajax状态码
+            if (xhr.readyState == 4){
+              // 判断http状态码
+              print(console.log(xhr.status))
+            }
+
+          }
+           xhr.onerror = () =>{
+              // 请求失败
+              console.log('网络中断')
+            }
+
+        }
+
+      </script>
+
+</body>
+</html>

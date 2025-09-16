@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax封装请求参数</title>
+</head>
+<body>
+      <h1>Ajax封装请求参数</h1>
+      <input type="button" value="获取响应数据get" onclick="get_data_get()">
+      <input type="button" value="获取响应数据post" onclick="get_data_post()">
+
+        <script>
+            function Ajax(options) {
+                /**
+                 * options:
+                 * type:请求的方式
+                 * url:请求的地址
+                 * data:请求参数,json类型
+                 * **/
+                // 处理请求的参数,将参数使用&拼接
+                let params =''
+                for(let key in options.data){
+                    value = options.data[key]
+                    params = params + key+'='+value+'&'
+                }
+                // 去掉多余的&
+                params = params.substring(0,params.length-1)
+                // console.log(params)
+
+                // 判断请求类型
+                // 如果是get请求,则直接将参数拼接到url
+                if(options.type == 'get'){
+                    options.url = options.url+'?'+params
+                }
+
+                let xhr = new XMLHttpRequest()
+                xhr.open(options.type,options.url)
+                // 如果是post请求,则将参数使用send()函数发送
+                if(options.type == 'post'){
+                    xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded')
+                    xhr.send(params)
+                }else{
+                    xhr.send()
+                }
+
+
+                xhr.onreadystatechange = () =>{
+                    if(xhr.readyState == 4 && xhr.status == 200){
+                        console.log(xhr.responseText)
+                    }
+                }
+            }
+            // get url?params
+            // post send(params) json/form
+
+
+            
+            function get_data_get() {
+                Ajax({
+                    type:'get',
+                    url:'http://httpbin.org/get',
+                    data:{'name':'jack','pwd':123}
+                })
+            }
+            function get_data_post() {
+                Ajax({
+                    type:'post',
+                    url:'http://httpbin.org/post',
+                    data:{'name':'jack','pwd':123}
+                })
+            }
+            
+
+        </script>
+</body>
+</html>

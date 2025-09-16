@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>for语句的使用</title>
+</head>
+<body>
+        <h1>for语句的使用</h1>
+        {% for item in items %}
+            {{item}}<br>
+        {% endfor %}
+        <hr>
+        {{ person }}<br>
+        {{ person.uname }}<br>
+        {% for p in person.keys()%}
+            {{p}}
+        {% endfor %}
+        <br>
+        {% for p in person.values()%}
+            {{p}}
+        {% endfor %}
+        <br>
+        {% for p in person.items()%}
+            {{p}}
+        {% endfor %}
+        <hr>
+        {% for p in items %}
+            {{p}}--{{loop.index}}--{{loop.index0}}--{{loop.first}}--{{loop.last}}--{{loop.length}}<br>
+        {% endfor %}
+
+        {% for item in items |reverse %}
+            {{item}}<br>
+        {% endfor %}
+
+
+</body>
+</html>

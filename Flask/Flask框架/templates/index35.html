@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>set与with的使用</title>
+</head>
+<body>
+        <h1>set与with的使用</h1>
+
+{% set uname='bob' %}
+<p>用户名:{{uname}}</p>
+
+
+{% with name='jack' %}
+        <p>用户名:{{name}}</p>
+{% endwith %}
+
+{% with %}
+        {% set age=18 %}
+        <p>年龄:{{age}}</p>
+{% endwith %}
+
+</body>
+</html>
+
+
+

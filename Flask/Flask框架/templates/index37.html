@@ -1,0 +1,20 @@
+{% extends 'base.html'%}
+
+
+    {% block footer%}
+    这是子模版的底部信息
+    {% endblock %}
+
+
+    {% block content%}
+    {{super()}}<br>
+    <!--使用super()对父模版内容扩充-->
+    这是子模版的内容<br>
+    <!--使用self.footer调用当前模版的footer block块-->
+    {{self.footer()}}
+
+    {% endblock%}
+
+
+
+

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>循环练习</title>
+</head>
+<body>
+    <h1>循环实现99乘法表</h1>
+    <table border="1">
+
+      {% for x in range(1,10) %}
+        <tr>
+        {% for y in range(1,x+1) %}
+            <td>{{x}} x {{y}} = {{ x*y }}
+        {% endfor %}
+        </tr>
+      {% endfor %}
+
+    </table>
+</body>
+</html>

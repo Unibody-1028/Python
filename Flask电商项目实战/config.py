@@ -7,9 +7,9 @@ class Config:
     MYSQL_DRIVER = 'pymysql'
     MYSQL_NAME = 'root'
     MYSQL_PWD = '123456'
-    MYSQL_HOST = 'localhost'
+    MYSQL_HOST = '127.0.0.1'
     MYSQL_PORT = '3306'
-    MYSQL_DB = 'shop_env'
+    MYSQL_DB = 'flask_shop'
     MYSQL_CHARSET= 'utf8mb4'
     # 拼接SQLAlchemy数据库连接URI
     SQLALCHEMY_DATABASE_URI = (f'{MYSQL_DIALECT}+{MYSQL_DRIVER}://{MYSQL_NAME}:{MYSQL_PWD}'

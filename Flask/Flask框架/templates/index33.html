@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>宏的引入</title>
+</head>
+{% import 'macros/common.html' as mc with context %}
+{% from 'macros/common.html' import inp with context%}
+
+<body>
+        <h1>宏的引入</h1>
+
+          <table>
+            <tr>
+              <td>用户名:</td><td><input type="text" name="" value="{{uname}}"></td>
+            </tr>
+            <tr>
+              <td>密码:</td><td><input type="password" name="" value=""></td>
+            </tr>
+            <tr>
+              <td><input type="submit" value="登录"></td>
+            </tr>
+          </table>
+<hr>
+
+
+
+           <table>
+            <tr>
+              <td>用户名:</td><td>{{mc.inp(name='uname')}}</td>
+            </tr>
+            <tr>
+              <td>密码:</td><td>{{mc.inp('password',name='pwd')}}</td>
+            </tr>
+            <tr>
+              <td>{{mc.inp('submit',value='登录')}}</td>
+            </tr>
+          </table>
+<hr>
+          <table>
+            <tr>
+              <td>用户名:</td><td>{{inp(name='uname')}}</td>
+            </tr>
+            <tr>
+              <td>密码:</td><td>{{inp('password',name='pwd')}}</td>
+            </tr>
+            <tr>
+              <td>{{inp('submit',value='登录')}}</td>
+            </tr>
+          </table>
+
+</body>
+</html>

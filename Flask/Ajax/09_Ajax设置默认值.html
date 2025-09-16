@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax封装设置默认参数</title>
+</head>
+<body>
+      <h1>Ajax封装设置默认参数</h1>
+      <input type="button" value="获取响应数据get" onclick="get_data()">
+        <script>
+            function Ajax(options) {
+                /**
+                 * options:
+                 * type:请求的方式
+                 * url:请求的地址
+                 * data:请求参数,json类型
+                 * success:请求成功以后的处理函数
+                 * error:请求失败以后的处理函数
+                 * **/
+                let defaults = {
+                  type: 'get',
+                  url:'',
+                  success:function () {
+
+                  },
+                  error:function (){
+
+                  }
+                }
+                // 将options的参数值覆盖到defaults
+                Object.assign(defaults,options)
+
+
+                // 处理请求的参数,将参数使用&拼接
+                let params =''
+                for(let key in defaults.data){
+                    value = defaults.data[key]
+                    params = params + key+'='+value+'&'
+                }
+                // 去掉多余的&
+                params = params.substring(0,params.length-1)
+
+                // 判断请求类型
+                // 如果是get请求,则直接将参数拼接到url
+                if(defaults.type == 'get'){
+                    defaults.url = defaults.url+'?'+params
+                }
+                let xhr = new XMLHttpRequest()
+                xhr.open(defaults.type,defaults.url)
+                // 如果是post请求,则将参数使用send()函数发送
+                if(defaults.type == 'post'){
+                    xhr.setRequestHeader('Content-Type','application/x-www-form-urlencoded')
+                    xhr.send(params)
+                }else{
+                    xhr.send()
+                }
+                // 接收响应
+                xhr.onreadystatechange = () =>{
+                    if(xhr.readyState == 4 ){
+                      if(xhr.status == 200){
+                        console.log(xhr.responseText)
+                      }else{
+                        defaults.error(xhr.status)
+                      }
+                    }
+                }
+
+            }
+
+            function get_data() {
+                Ajax({
+                    //type:'get',
+                    url:'http://httpbin.org/get',
+                    data:{'name':'jack','pwd':123},
+                    success:function (data){
+                      console.log(data)
+                    }
+                })
+            }
+
+
+        </script>
+</body>
+</html>

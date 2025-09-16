@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9a73870-9739-4239-a2c9-a7a27c7f8d8f" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/01_Flask第一个程序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/02_Flask启动方式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/03_Debug模式的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/04_配置参数的加载.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/05_动态URL地址.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/06_动态URL参数的类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/07_自定义数据类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/08_to_python方法的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/09_查询参数的获取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/10_请求体参数的获取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/11_上传文件的获取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/12_request其它参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/13_url_for的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/14_url_for函数的使用原因.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/15_重定向的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/16_响应_数据的响应.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/17_响应_自定义响应.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/18_模版介绍.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/19_模版的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/20_模版的传参.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/21_模版使用url_for函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/22_过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/23_default过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/24_转义字符过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/25_其它过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/26_自定义内容过滤器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/27_自定义时间过滤器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/28_if语句的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/29_流程控制-选择练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/30_for语句的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/31_流程控制-循环练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/32_宏的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/33_宏的引入.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/34_include的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/35_set与with的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/36_静态文件的引入.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/37_模版继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/38_模版继承练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/demo/static/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/demo/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/demo/static/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/demo/static/images/8bcLQqF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/demo/static/images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/demo/static/imgs/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/demo/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static/imgs/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static/imgs/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static2/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static2/imgs/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static2/imgs/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/static2/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/common/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/home_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index32.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index33.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index34.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index35.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index36.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index37.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/index38.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/macros/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Flask框架/模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../01_Flask_url_route.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../02_类视图的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../03_类视图的好处.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../04_类视图实战.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../05_基于调度方法的类视图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../06_基于调度方法的类视图开发优化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../07_装饰器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../08_蓝图的介绍.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Flask视图高级.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/item/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/login05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/login06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/01-高阶函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/02-偏函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/03-闭包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/04-闭包和自由变量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/05-闭包为函数添加功能.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/06-map函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/07-reduce函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/08-filter函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/09-sorted函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/10-sorted函数_自定义对象的排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/11-装饰器解决日志问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/12-多个装饰器的执行顺序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/13-带参数的装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/14-类装饰器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/15-缓存装饰器和计时装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/16-生成器函数的创建.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/17-生成器函数的创建_send方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/18-迭代器测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/19-创建一个迭代器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/20-动态地给对象添加属性和方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/21-动态的给类添加属性和方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/22-slots限制动态添加成员属性和方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Functional programming/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/01-字符串格式化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/02-变量类型标注.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/03-函数参数和返回值添加类型标注.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/04-混合类型检查及改进.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/05-类型别名更改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/06-统计二进制数字中1的个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/07-字典新特性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/08-dataclass装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/09-字典合并.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/10-match语法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python新特性/Python新特性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mysql数据库/mysql数据库.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../内存管理/01-元类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../内存管理/02-装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../内存管理/03-垃圾回收机制.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../内存管理/04-内存隔代回收机制.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/Event事件的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/08-Event事件的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/Manager管理器实现进程间通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/15-Manager管理器实现进程间通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/Pipe实现进程间通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/14-Pipe实现进程间通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/join方法测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/03-join方法测试.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/不使用协程的程序切换.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/18-不使用协程的程序切换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/使用Queue实现进程间通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/13-使用Queue实现进程间通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/使用asyncio实现协程.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/20-使用asyncio实现协程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/使用yield实现协程.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/19-使用yield实现协程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/信号量.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/07-信号量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/多个线程访问一个资源+互斥锁.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/06-多个线程访问一个资源+互斥锁.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/多个线程访问一个资源.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/05-多个线程访问一个资源.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/守护线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/04-守护线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/方法模式创建线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/01-方法模式创建线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/方法模式创建进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/11-方法模式创建进程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/死锁案例.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/09-死锁案例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/生产者消费者模式.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/10-生产者消费者模式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/类模式创建线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/02-类模式创建线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/类模式创建进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/12-类模式创建进程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/进程池.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/16-进程池.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Concurrent programming/进程池_with管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Concurrent programming/17-进程池_with管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Functional programming/Functional programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Functional programming/Functional programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Network programming/Network programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Network programming/Network programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Network programming/TCP/01-TCP服务端简化案例.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Network programming/TCP/01-TCP服务端简化案例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Network programming/TCP/03-TCP服务端持续通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Network programming/TCP/03-TCP服务端持续通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Network programming/TCP/04-TCP客户端持续通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Network programming/TCP/04-TCP客户端持续通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Network programming/TCP/05-TCP服务端多线程处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Network programming/TCP/05-TCP服务端多线程处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Network programming/TCP/06-TCP客户端多线程处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Network programming/TCP/06-TCP客户端多线程处理.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Unibody-1028"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Unibody-1028/Python.git",
+    "accountId": "01bc70bb-6f18-41d3-b7b7-b258788c35e9"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="320dFpKk1T7iuVWwVI7iZT1sVJJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flask 服务器.Flask (main.py).executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/guopengpeng/Python/Flask视图高级/demo",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Flask 服务器.Flask (main.py)">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python">
+      <module name="demo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (main.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="target" value="$PROJECT_DIR$/main.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask 服务器.Flask (main.py)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PY-251.26927.90" />
+        <option value="bundled-python-sdk-41e8cd69c857-64d779b69b7a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26927.90" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="a9a73870-9739-4239-a2c9-a7a27c7f8d8f" name="更改" comment="" />
+      <created>1756561322793</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756561322793</updated>
+      <workItem from="1756561323873" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$Flask__main_py_.coverage" NAME="Flask (main.py) 覆盖结果" MODIFIED="1756561338131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+  </component>
+</project>

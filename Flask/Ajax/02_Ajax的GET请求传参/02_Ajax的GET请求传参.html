@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax的GET请求传参</title>
+</head>
+<body>
+        <h1>Ajax的GET请求传参</h1>
+        <input type="text" name="" id="name">
+        <input type="password" name="" id="pwd">
+        <input type="button" value="提交数据" onclick="submitForm()">
+        <script>
+
+        
+            
+        function submitForm() {
+            uname = document.getElementById('name').value
+            pwd = document.getElementById('pwd').value
+
+
+            let xhr = new XMLHttpRequest()
+            url = 'http://httpbin.org/get'
+            args = '?uname='+uname+'&pwd='+pwd
+            url = url +args
+            xhr.open('GET',url)
+            xhr.send()
+            xhr.onload =  () => {
+                console.log(xhr.responseText)
+            }
+
+
+        }
+        </script>
+
+
+</body>
+</html>

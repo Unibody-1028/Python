@@ -5,11 +5,309 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642992a6-e0a7-4af2-8f70-be5b2a28b530" name="Changes" comment="7 23 2025 a simply GUI program">
-      <change afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/Event事件的使用.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/信号量.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/生产者消费者模式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/01_Ajax的基本使用/Ajax的基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/02_Ajax的GET请求传参/02_Ajax的GET请求传参.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/03_Ajax的POST请求传参/03_Ajax的POST请求传参.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/04_Ajax状态码响应处理/04_Ajax状态码响应处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/05_Ajax请求失败处理/05_Ajax请求失败处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/06_Ajax简单封装/06_Ajax简单封装.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/07_Ajax封装请求参数/07_Ajax封装请求参数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/08_Ajax响应处理/08_Ajax响应处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Ajax/09_Ajax设置默认值.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/01_连接数据库.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/02_对象映射表.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/03_数据的CRUD操作.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/04_常用的数据类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/05_Column常用参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/06_query函数的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/07_filter函数的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/09_SQLAlchemy关联表删除策略设置.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/10_一对多关系.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/11_一对一关系.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/12_多对多关系.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/13_ORM删除数据注意事项.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/14_ORM数据级联设置参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/15_ORM数据的排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/16_数据的分页显示.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/17_数据懒加载.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/18_数据的分组.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/19_join查询.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/20_子查询.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/21_使用aliased函数重命名.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/22_Flask_SQLAlchemy的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/23_alembic_deom/deom_alembic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/24_Flask_SQLAlchemy_Alembic结合使用/Flask_SQLAlchemy_Alembic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/25_Flask_Migrate/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/Flask数据库.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask数据库/db_util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/01_Flask第一个程序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/02_Flask启动方式.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/03_Debug模式的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/04_配置参数的加载.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/05_动态URL地址.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/06_动态URL参数的类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/07_自定义数据类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/08_to_python方法的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/09_查询参数的获取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/10_请求体参数的获取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/11_上传文件的获取.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/12_request其它参数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/13_url_for的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/14_url_for函数的使用原因.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/15_重定向的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/16_响应_数据的响应.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/17_响应_自定义响应.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/18_模版介绍.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/19_模版的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/20_模版的传参.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/21_模版使用url_for函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/22_过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/23_default过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/24_转义字符过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/25_其它过滤器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/26_自定义内容过滤器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/27_自定义时间过滤器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/28_if语句的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/29_流程控制-选择练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/30_for语句的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/31_流程控制-循环练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/32_宏的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/33_宏的引入.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/34_include的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/35_set与with的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/36_静态文件的引入.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/37_模版继承.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/38_模版继承练习.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/demo/static/css/body.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/demo/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/demo/static/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/demo/static/images/8bcLQqF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/demo/static/images/cloud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/demo/static/imgs/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/demo/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static/imgs/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static/imgs/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static2/css/test.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static2/imgs/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static2/imgs/img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/static2/js/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/common/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/home_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index19.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index20.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index21.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index22.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index23.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index25.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index26.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index27.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index28.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index29.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index30.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index31.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index32.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index33.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index34.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index35.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index36.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index37.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/index38.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/macros/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask框架/模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/.idea/Flask视图高级.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/01_Flask_url_route.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/02_类视图的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/03_类视图的好处.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/04_类视图实战.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/05_基于调度方法的类视图.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/06_基于调度方法的类视图开发优化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/07_装饰器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/08_蓝图的介绍.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/10_蓝图中的模版文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/Flask视图高级.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo09/.idea/demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo09/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo09/item/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo09/item/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo09/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo09/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo09/user/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo11/static/img/img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo11/static/video/Sweater_Girl_Snow.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo11/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo11/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo11/user/static/video/Sweater_Girl_Snow.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo11/user/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo12/12_蓝图与url_for函数结合.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo12/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo12/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo12/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo12/user/user_page/Sweater_Girl_Snow.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo12/user/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo13/13_蓝图实现子域名.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo13/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo13/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/demo13/user/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/templates/index10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/templates/login05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/templates/login06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/user/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/user/view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask视图高级/模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/01_Flask中设置Cookie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/02_cookie的有效期.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/03_Flask使用Session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/04_Session的有效期.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/05_Session实现免登录.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/06_thread中的Local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/06_werkzeug中的Local.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/07_Flask应用上下文.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/08_Flask请求上下文.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/09_全局g对象.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/10_before_first_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/10_before_request.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/11_context_processor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/12_errorhandler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/13_信号的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/14_Flask信号记录用户登录.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/15_flash信号.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/16_Flask的template_rendered信号.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/17_Flask中的got_request_exception信号.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/18_wtf的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/19_wtf常用的验证器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/20_wtd自定义验证器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/21_WTForms渲染模版/21_WTForms渲染模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/21_WTForms渲染模版/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/21_WTForms渲染模版/forms_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/21_WTForms渲染模版/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/22_Flask上传和访问文件/22_Flask上传文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/22_Flask上传和访问文件/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/22_Flask上传和访问文件/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/23_wtf上传文件/23_wtf上传文件.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/23_wtf上传文件/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/23_wtf上传文件/forms_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/23_wtf上传文件/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/24_Restful的基本使用/Restful的基本使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/24_Restful的基本使用/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/25_restful数据解析/25_restful数据解析.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/25_restful数据解析/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/26_add_argument方法参数详解/26_add_argument方法参数详解.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/26_add_argument方法参数详解/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/27_restful规范化返回值/27_restful规范化返回值.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/27_restful规范化返回值/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/28_restful规范返回值-参数设置/28_restful规范返回值-参数设置.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/28_restful规范返回值-参数设置/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/29_restful规范返回值-类型设置/29_restful规范返回值-类型设置.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/29_restful规范返回值-类型设置/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/30_restful与蓝图结合/30_restful与蓝图结合.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/30_restful与蓝图结合/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/30_restful与蓝图结合/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/30_restful与蓝图结合/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/31_restful渲染模版/31_restful渲染模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/31_restful渲染模版/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/31_restful渲染模版/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/Flask高级.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/forms_check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/formscheck_20.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/11_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/11_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/12_404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/12_500.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/16_home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/17_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/19_register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/20_login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/utils_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/utils_old.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/Flask高级/模版.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Flask/GraphQL/Graphql.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/01-高阶函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/02-偏函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/03-闭包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/04-闭包和自由变量.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/05-闭包为函数添加功能.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/06-map函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/07-reduce函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/08-filter函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/09-sorted函数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/10-sorted函数_自定义对象的排序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/11-装饰器解决日志问题.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/12-多个装饰器的执行顺序.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/13-带参数的装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/14-类装饰器的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/15-缓存装饰器和计时装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/16-生成器函数的创建.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/17-生成器函数的创建_send方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/18-迭代器测试.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/19-创建一个迭代器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/20-动态地给对象添加属性和方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/21-动态的给类添加属性和方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/22-slots限制动态添加成员属性和方法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Functional programming/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/01-字符串格式化.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/02-变量类型标注.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/03-函数参数和返回值添加类型标注.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/04-混合类型检查及改进.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/05-类型别名更改.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/06-统计二进制数字中1的个数.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/07-字典新特性.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/08-dataclass装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/09-字典合并.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/10-match语法.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python新特性/Python新特性.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysql数据库/mysql数据库.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存管理/01-元类.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存管理/02-装饰器.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存管理/03-垃圾回收机制.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/内存管理/04-内存隔代回收机制.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python_Networking and concurrent programming/Python_Networking and concurrent programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/Python_Networking and concurrent programming/Python_Networking and concurrent programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/Event事件的使用.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/08-Event事件的使用.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/Manager管理器实现进程间通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/15-Manager管理器实现进程间通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/Pipe实现进程间通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/14-Pipe实现进程间通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/join方法测试.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/03-join方法测试.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/不使用协程的程序切换.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/18-不使用协程的程序切换.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/使用Queue实现进程间通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/13-使用Queue实现进程间通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/使用asyncio实现协程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/20-使用asyncio实现协程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/使用yield实现协程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/19-使用yield实现协程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/信号量.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/07-信号量.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/多个线程访问一个资源+互斥锁.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/06-多个线程访问一个资源+互斥锁.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/多个线程访问一个资源.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/05-多个线程访问一个资源.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/守护线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/04-守护线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/方法模式创建线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/01-方法模式创建线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/方法模式创建进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/11-方法模式创建进程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/死锁案例.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/09-死锁案例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/生产者消费者模式.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/10-生产者消费者模式.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/类模式创建线程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/02-类模式创建线程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/类模式创建进程.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/12-类模式创建进程.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/进程池.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/16-进程池.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concurrent programming/进程池_with管理.py" beforeDir="false" afterPath="$PROJECT_DIR$/Concurrent programming/17-进程池_with管理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Functional programming/Functional programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/Functional programming/Functional programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network programming/Network programming.md" beforeDir="false" afterPath="$PROJECT_DIR$/Network programming/Network programming.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network programming/TCP/01-TCP服务端简化案例.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network programming/TCP/01-TCP服务端简化案例.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network programming/TCP/03-TCP服务端持续通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network programming/TCP/03-TCP服务端持续通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network programming/TCP/04-TCP客户端持续通信.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network programming/TCP/04-TCP客户端持续通信.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network programming/TCP/05-TCP服务端多线程处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network programming/TCP/05-TCP服务端多线程处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Network programming/TCP/06-TCP客户端多线程处理.py" beforeDir="false" afterPath="$PROJECT_DIR$/Network programming/TCP/06-TCP客户端多线程处理.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +317,21 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform)); sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo, NoAppException&#10;for module in [&quot;main.py&quot;, &quot;wsgi.py&quot;, &quot;app.py&quot;]:&#10;    try: locals().update(ScriptInfo(app_import_path=module, create_app=None).load_app().make_shell_context()); print(&quot;\nFlask App: %s&quot; % app.import_name); break&#10;    except NoAppException: pass" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -50,7 +361,9 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/sqlalchemy/orm/_orm_constructors.py" root0="SKIP_INSPECTION" />
     <setting file="file:///Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/tkinter/__init__.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Python新特性/02-变量类型标注.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -63,70 +376,278 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.Event事件的使用.executor": "Run",
-    "Python.code01.executor": "Run",
-    "Python.code02.executor": "Run",
-    "Python.code03.executor": "Run",
-    "Python.code04.executor": "Run",
-    "Python.code05.executor": "Run",
-    "Python.code06.executor": "Run",
-    "Python.code07.executor": "Run",
-    "Python.code08.executor": "Run",
-    "Python.code09.executor": "Run",
-    "Python.code10.executor": "Run",
-    "Python.code11.executor": "Run",
-    "Python.code12.executor": "Run",
-    "Python.code13.executor": "Run",
-    "Python.code14.executor": "Run",
-    "Python.code15.executor": "Run",
-    "Python.code16.executor": "Run",
-    "Python.code17.executor": "Run",
-    "Python.code18.executor": "Run",
-    "Python.code19.executor": "Run",
-    "Python.code20.executor": "Run",
-    "Python.code21.executor": "Run",
-    "Python.code22.executor": "Run",
-    "Python.code23.executor": "Run",
-    "Python.code24.executor": "Run",
-    "Python.code25.executor": "Run",
-    "Python.code3.executor": "Run",
-    "Python.code7.executor": "Run",
-    "Python.join方法测试.executor": "Run",
-    "Python.notebook.executor": "Run",
-    "Python.信号量.executor": "Run",
-    "Python.多个线程访问一个资源+互斥锁.executor": "Run",
-    "Python.多个线程访问一个资源.executor": "Run",
-    "Python.守护线程.executor": "Run",
-    "Python.方法模式创建线程.executor": "Run",
-    "Python.死锁案例.executor": "Run",
-    "Python.生产者消费者模式.executor": "Run",
-    "Python.类包装创建线程.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/guopengpeng/Python/Python_Networking and concurrent programming",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript 调试.02_Ajax的GET请求传参.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.01-TCP服务端简化案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-元类.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-字符串格式化.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-方法模式创建线程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01-高阶函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Flask_url_route.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Flask中设置Cookie.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_Flask第一个程序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.01_连接数据库.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-TCP客户端简化案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-偏函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-变量类型标注.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02-装饰器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_Flask启动方式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_cookie的有效期.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_对象映射表.executor&quot;: &quot;Run&quot;,
+    &quot;Python.02_类视图的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-TCP服务端持续通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-join方法测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-函数参数和返回值添加类型标注.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-垃圾回收机制.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03-闭包.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_Debug模式的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_Flask使用Session.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_数据的CRUD操作.executor&quot;: &quot;Run&quot;,
+    &quot;Python.03_类视图的好处.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-TCP客户端持续通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-内存隔代回收机制.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-守护线程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-混合类型检查及改进.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04-闭包和自由变量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_Session的有效期.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_常用的数据类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_类视图实战.executor&quot;: &quot;Run&quot;,
+    &quot;Python.04_配置参数的加载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-TCP服务端多线程处理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-UDP实现多线程服务端.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-类型别名更改.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05-闭包为函数添加功能.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_Column常用参数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_Session实现免登录.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_动态URL地址.executor&quot;: &quot;Run&quot;,
+    &quot;Python.05_基于调度方法的类视图.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06-TCP客户端多线程处理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06-map函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06-多个线程访问一个资源+互斥锁.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06-统计二进制数字中1的个数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_query函数的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_thread中的Local.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_werkzeug中的Local.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_动态URL参数的类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.06_基于调度方法的类视图开发优化.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07-信号量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07-字典新特性.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_Flask应用上下文.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_filter函数的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_自定义数据类型.executor&quot;: &quot;Run&quot;,
+    &quot;Python.07_装饰器的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08-Event事件的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08-dataclass装饰器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08-filter函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_Flask请求上下文.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_to_python方法的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.08_蓝图的介绍.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09-sorted函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09-字典合并.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_SQLAlchemy关联表删除策略设置.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_全局g对象.executor&quot;: &quot;Run&quot;,
+    &quot;Python.09_查询参数的获取.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-match语法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-reduce函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10-sorted函数_自定义对象的排序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_before_first_request.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_before_request.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_一对多关系.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_蓝图中的模版文件.executor&quot;: &quot;Run&quot;,
+    &quot;Python.10_请求体参数的获取.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11-方法模式创建进程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11-装饰器解决日志问题.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11_context_processor钩子函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11_一对一关系.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11_上传文件的获取.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.11_蓝图静态文件.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12-多个装饰器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12-多个装饰器的执行顺序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12_errorhandler.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12_request其它参数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12_多对多关系.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12_蓝图与url_for函数结合.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13-使用Queue实现进程间通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13-带参数的装饰器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13_ORM删除数据注意事项.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13_ORM数据级联设置参数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13_url_for的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13_信号的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.13_蓝图实现子域名.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14-Pipe实现进程间通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14-类装饰器的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14_Flask信号记录用户登录.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14_ORM数据级联设置参数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.14_url_for函数的使用原因.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15-Manager管理器实现进程间通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15-缓存和计时装饰器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15_ORM数据的排序.executor&quot;: &quot;Run&quot;,
+    &quot;Python.15_重定向的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16-生成器函数的创建.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16_Flask信号演示.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16_Flask的template_rendered信号.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16_响应_数据的响应.executor&quot;: &quot;Run&quot;,
+    &quot;Python.16_数据的分页显示.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17-不使用协程的程序切换.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17-生成器函数的创建_send方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17-进程池_with管理.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17_Flask中的got_request_exception信号.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17_响应_自定义响应.executor&quot;: &quot;Run&quot;,
+    &quot;Python.17_数据懒加载.executor&quot;: &quot;Run&quot;,
+    &quot;Python.18-使用yield实现协程.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.18-迭代器测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.18_wtf的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.18_数据的分组.executor&quot;: &quot;Run&quot;,
+    &quot;Python.18_模版介绍.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19-创建一个迭代器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19_join查询.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19_wtf常用的验证器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.19_模版的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20-使用asyncio实现协程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20-动态地给对象添加属性和方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20_wtd自定义验证器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20_子查询.executor&quot;: &quot;Run&quot;,
+    &quot;Python.20_模版的传参.executor&quot;: &quot;Run&quot;,
+    &quot;Python.21-动态的给类添加属性和方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.21_WTForms渲染模版.executor&quot;: &quot;Run&quot;,
+    &quot;Python.21_使用aliased函数重命名.executor&quot;: &quot;Run&quot;,
+    &quot;Python.21_模版使用url_for函数.executor&quot;: &quot;Run&quot;,
+    &quot;Python.22-slots限制动态添加成员属性和方法.executor&quot;: &quot;Run&quot;,
+    &quot;Python.22_Flask_SQLAlchemy的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.22_Flask上传文件.executor&quot;: &quot;Run&quot;,
+    &quot;Python.22_过滤器的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.23_default过滤器的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.23_wtf上传文件.executor&quot;: &quot;Run&quot;,
+    &quot;Python.24_转义字符过滤器的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25_restful数据解析.executor&quot;: &quot;Run&quot;,
+    &quot;Python.25_其它过滤器的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.26_add_argument方法参数详解.executor&quot;: &quot;Run&quot;,
+    &quot;Python.26_自定义过滤器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.27_restful规范化返回值.executor&quot;: &quot;Run&quot;,
+    &quot;Python.27_自定义时间过滤器.executor&quot;: &quot;Run&quot;,
+    &quot;Python.28_if语句的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.28_restful规范返回值.executor&quot;: &quot;Run&quot;,
+    &quot;Python.29_流程控制-选择练习.executor&quot;: &quot;Run&quot;,
+    &quot;Python.30_for语句的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.30_restful与蓝图结合.executor&quot;: &quot;Run&quot;,
+    &quot;Python.31_流程控制-循环练习.executor&quot;: &quot;Run&quot;,
+    &quot;Python.32_宏的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.33_宏的引入.executor&quot;: &quot;Run&quot;,
+    &quot;Python.34_include的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.35_set与with的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.36_静态文件的引入.executor&quot;: &quot;Run&quot;,
+    &quot;Python.37_模版继承.executor&quot;: &quot;Run&quot;,
+    &quot;Python.38_模版继承练习.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Event事件的使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Flask_SQLAlchemy_Alembic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Manager管理器实现进程间通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Pipe实现进程间通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Restful的基本使用.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TCP客户端持续通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TCP客户端简化案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TCP服务端持续通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TCP服务端简化案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UDP实现多线程客户端.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UDP实现多线程服务端.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UDP客户端持续通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UDP客户端简化案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UDP服务端持续通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.UDP服务端简化案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code09.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code16.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code17.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code18.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code19.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code20.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code21.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code22.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code23.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code24.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code25.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.code7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.db_util.executor&quot;: &quot;Run&quot;,
+    &quot;Python.join方法测试.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.notebook.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.不使用协程的程序切换.executor&quot;: &quot;Run&quot;,
+    &quot;Python.使用Queue实现进程间通信.executor&quot;: &quot;Run&quot;,
+    &quot;Python.使用asyncio实现协程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.使用yield实现协程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.信号量.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多个线程访问一个资源+互斥锁.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多个线程访问一个资源.executor&quot;: &quot;Run&quot;,
+    &quot;Python.守护线程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.方法模式创建线程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.方法模式创建进程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.模版.executor&quot;: &quot;Run&quot;,
+    &quot;Python.死锁案例.executor&quot;: &quot;Run&quot;,
+    &quot;Python.生产者消费者模式.executor&quot;: &quot;Run&quot;,
+    &quot;Python.类包装创建线程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.类模式创建进程.executor&quot;: &quot;Run&quot;,
+    &quot;Python.进程池.executor&quot;: &quot;Run&quot;,
+    &quot;Python.进程池_with管理.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/guopengpeng/Python&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Python_Networking and concurrent programming" />
-      <recent name="$PROJECT_DIR$/Python_GUI" />
-      <recent name="$PROJECT_DIR$/Python_GUI/image" />
+      <recent name="$PROJECT_DIR$/Flask高级" />
+      <recent name="$PROJECT_DIR$/Flask高级/22_wtf上传文件/imgs" />
+      <recent name="$PROJECT_DIR$/Flask视图高级/demo12/user/user_page" />
+      <recent name="$PROJECT_DIR$/Flask视图高级/demo11/user/static/video" />
+      <recent name="$PROJECT_DIR$/Flask视图高级/demo11/static/video" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Flask/Flask数据库" />
+      <recent name="$PROJECT_DIR$/Flask/25_Flask_Migrate" />
+      <recent name="$PROJECT_DIR$/Flask视图高级" />
+      <recent name="$PROJECT_DIR$/Flask框架/templates" />
+      <recent name="$PROJECT_DIR$/Flask框架" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.生产者消费者模式">
-    <configuration name="多个线程访问一个资源" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.20_子查询">
+    <configuration name="02_Ajax的GET请求传参.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Python/Flask/Ajax/02_Ajax的GET请求传参/02_Ajax的GET请求传参.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="20_子查询" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,12 +656,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/Flask数据库" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/多个线程访问一个资源.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/Flask数据库/20_子查询.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +670,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="生产者消费者模式" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="21_使用aliased函数重命名" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,12 +679,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/Flask数据库" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/生产者消费者模式.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/Flask数据库/21_使用aliased函数重命名.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -172,7 +693,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Event事件的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="22_Flask_SQLAlchemy的使用" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,12 +702,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/Flask数据库" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/Event事件的使用.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/Flask数据库/22_Flask_SQLAlchemy的使用.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +716,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="多个线程访问一个资源+互斥锁" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask_SQLAlchemy_Alembic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,58 +725,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Flask/Flask数据库/24_Flask_SQLAlchemy_Alembic结合使用" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/多个线程访问一个资源+互斥锁.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="死锁案例" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/死锁案例.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="信号量" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python_Networking and concurrent programming" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python_Networking and concurrent programming/信号量.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Flask/Flask数据库/24_Flask_SQLAlchemy_Alembic结合使用/Flask_SQLAlchemy_Alembic.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,10 +741,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.生产者消费者模式" />
-        <item itemvalue="Python.多个线程访问一个资源+互斥锁" />
-        <item itemvalue="Python.多个线程访问一个资源" />
-        <item itemvalue="Python.Event事件的使用" />
+        <item itemvalue="Python.Flask_SQLAlchemy_Alembic" />
+        <item itemvalue="Python.22_Flask_SQLAlchemy的使用" />
+        <item itemvalue="Python.21_使用aliased函数重命名" />
+        <item itemvalue="Python.20_子查询" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +776,29 @@
       <workItem from="1753532855677" duration="48225000" />
       <workItem from="1753763349423" duration="8000" />
       <workItem from="1753763617743" duration="134000" />
-      <workItem from="1753763986082" duration="4428000" />
+      <workItem from="1753763986082" duration="10677000" />
+      <workItem from="1754066504027" duration="50704000" />
+      <workItem from="1754307443574" duration="29467000" />
+      <workItem from="1754381390440" duration="21758000" />
+      <workItem from="1756141542222" duration="85000" />
+      <workItem from="1756141744957" duration="87215000" />
+      <workItem from="1756561113993" duration="260000" />
+      <workItem from="1756561610776" duration="908000" />
+      <workItem from="1756564773870" duration="10450000" />
+      <workItem from="1756633953190" duration="15000" />
+      <workItem from="1756634338624" duration="5000" />
+      <workItem from="1756634715923" duration="4000" />
+      <workItem from="1756793999052" duration="6110000" />
+      <workItem from="1756808253492" duration="2000" />
+      <workItem from="1756808343006" duration="83921000" />
+      <workItem from="1757348648653" duration="8476000" />
+      <workItem from="1757384423479" duration="69259000" />
+      <workItem from="1757757133959" duration="2221000" />
+      <workItem from="1757781712051" duration="19526000" />
+      <workItem from="1757907730337" duration="3000" />
+      <workItem from="1757907837408" duration="9220000" />
+      <workItem from="1757953518597" duration="654000" />
+      <workItem from="1757997014599" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="7 23 2025 a simply GUI program">
       <option name="closed" value="true" />
@@ -322,7 +819,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -333,36 +842,162 @@
     <option name="LAST_COMMIT_MESSAGE" value="7 23 2025 a simply GUI program" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python$code19.coverage" NAME="code19 覆盖结果" MODIFIED="1753598477354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code10.coverage" NAME="code10 覆盖结果" MODIFIED="1753543999789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code16.coverage" NAME="code16 覆盖结果" MODIFIED="1753588321848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code25.coverage" NAME="code25 覆盖结果" MODIFIED="1753607369974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code02.coverage" NAME="code02 覆盖结果" MODIFIED="1753375009947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$20_wtd.coverage" NAME="20_wtd自定义验证器 覆盖结果" MODIFIED="1757074349949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$03_Debug.coverage" NAME="03_Debug模式的使用 覆盖结果" MODIFIED="1756143810302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$28_if.coverage" NAME="28_if语句的使用 覆盖结果" MODIFIED="1756391653985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$13_.coverage" NAME="13_信号的使用 覆盖结果" MODIFIED="1756980970174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$08_Event.coverage" NAME="08-Event事件的使用 覆盖结果" MODIFIED="1754187577686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$05_Column.coverage" NAME="05_Column常用参数 覆盖结果" MODIFIED="1757399674191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$Pipe.coverage" NAME="Pipe实现进程间通信 覆盖结果" MODIFIED="1754067307717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$03_join.coverage" NAME="03-join方法测试 覆盖结果" MODIFIED="1754187130298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$05_UDP.coverage" NAME="05-UDP实现多线程服务端 覆盖结果" MODIFIED="1754156677578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network programming/UDP" />
     <SUITE FILE_PATH="coverage/Python$code24.coverage" NAME="code24 覆盖结果" MODIFIED="1753604851740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$21_.coverage" NAME="21-动态的给类添加属性和方法 覆盖结果" MODIFIED="1754361346827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
     <SUITE FILE_PATH="coverage/Python$code3.coverage" NAME="code03 覆盖结果" MODIFIED="1753373184725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$10_reduce.coverage" NAME="10-reduce函数 覆盖结果" MODIFIED="1754300003534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$TCP.coverage" NAME="04-TCP客户端持续通信 覆盖结果" MODIFIED="1754157147461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network programming" />
+    <SUITE FILE_PATH="coverage/Python$02_cookie.coverage" NAME="02_cookie的有效期 覆盖结果" MODIFIED="1756814890079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$05_.coverage" NAME="05_基于调度方法的类视图 覆盖结果" MODIFIED="1756489838220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级" />
+    <SUITE FILE_PATH="coverage/Python$08_Flask.coverage" NAME="08_Flask请求上下文 覆盖结果" MODIFIED="1756834044390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$12_errorhandler.coverage" NAME="12_errorhandler 覆盖结果" MODIFIED="1756980919831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$db_util.coverage" NAME="db_util 覆盖结果" MODIFIED="1757385599753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$Manager.coverage" NAME="Manager管理器实现进程间通信 覆盖结果" MODIFIED="1754068087081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$25_restful.coverage" NAME="25_restful数据解析 覆盖结果" MODIFIED="1757319650930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/25_restful数据解析" />
+    <SUITE FILE_PATH="coverage/Python$12_.coverage" NAME="12_多对多关系 覆盖结果" MODIFIED="1757554871342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$test.coverage" NAME="test 覆盖结果" MODIFIED="1754328030468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$03_FlaskSession.coverage" NAME="03_Flask使用Session 覆盖结果" MODIFIED="1756813145269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$29__.coverage" NAME="29_流程控制-选择练习 覆盖结果" MODIFIED="1756394165385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$06_.coverage" NAME="06_基于调度方法的类视图开发优化 覆盖结果" MODIFIED="1756491259011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级" />
+    <SUITE FILE_PATH="coverage/Python$12_request.coverage" NAME="12_request其它参数 覆盖结果" MODIFIED="1756277543136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$Event.coverage" NAME="Event事件的使用 覆盖结果" MODIFIED="1754059130973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$02_Flask.coverage" NAME="02_Flask启动方式 覆盖结果" MODIFIED="1756142851145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$19_.coverage" NAME="19_模版的使用 覆盖结果" MODIFIED="1756301506883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$main__1_.coverage" NAME="main (1) 覆盖结果" MODIFIED="1756561620743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级/demo09" />
+    <SUITE FILE_PATH="coverage/Python$code15.coverage" NAME="code15 覆盖结果" MODIFIED="1753587364095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$08_to_python.coverage" NAME="08_to_python方法的使用 覆盖结果" MODIFIED="1756192979949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$34_include.coverage" NAME="34_include的使用 覆盖结果" MODIFIED="1756452399344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$code14.coverage" NAME="code14 覆盖结果" MODIFIED="1753585482077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$01_Flask.coverage" NAME="01_Flask第一个程序 覆盖结果" MODIFIED="1756142476509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$06_TCP.coverage" NAME="06-TCP客户端多线程处理 覆盖结果" MODIFIED="1754159254430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network programming/TCP" />
+    <SUITE FILE_PATH="coverage/Python$14_Flask.coverage" NAME="14_Flask信号记录用户登录 覆盖结果" MODIFIED="1756981221165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$19_wtf.coverage" NAME="19_wtf常用的验证器 覆盖结果" MODIFIED="1757066707598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$code19.coverage" NAME="code19 覆盖结果" MODIFIED="1753598477354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$22_slots.coverage" NAME="22-slots限制动态添加成员属性和方法 覆盖结果" MODIFIED="1754364947203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$26_.coverage" NAME="26_自定义过滤器 覆盖结果" MODIFIED="1756375120092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$code10.coverage" NAME="code10 覆盖结果" MODIFIED="1753543999789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$06_1.coverage" NAME="06-统计二进制数字中1的个数 覆盖结果" MODIFIED="1754665003314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python新特性" />
+    <SUITE FILE_PATH="coverage/Python$30_for.coverage" NAME="30_for语句的使用 覆盖结果" MODIFIED="1756403287439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$13_url_for.coverage" NAME="13_url_for的使用 覆盖结果" MODIFIED="1756278342528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$code25.coverage" NAME="code25 覆盖结果" MODIFIED="1753607369974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$22_Flask.coverage" NAME="22_Flask上传文件 覆盖结果" MODIFIED="1757078865235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/22_Flask上传和访问文件" />
+    <SUITE FILE_PATH="coverage/Python$15_.coverage" NAME="15_重定向的使用 覆盖结果" MODIFIED="1756284721811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$21_url_for.coverage" NAME="21_模版使用url_for函数 覆盖结果" MODIFIED="1756365416999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$17_Flaskgot_request_exception.coverage" NAME="17_Flask中的got_request_exception信号 覆盖结果" MODIFIED="1757040662073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$21_WTForms.coverage" NAME="21_WTForms渲染模版 覆盖结果" MODIFIED="1757076452528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/21_WTForms渲染模版" />
+    <SUITE FILE_PATH="coverage/Python$Restful.coverage" NAME="Restful的基本使用 覆盖结果" MODIFIED="1757298415375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/24_Restful的基本使用" />
+    <SUITE FILE_PATH="coverage/Python$yield.coverage" NAME="使用yield实现协程 覆盖结果" MODIFIED="1754071421635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$06_query.coverage" NAME="06_query函数的使用 覆盖结果" MODIFIED="1757407846428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$code01.coverage" NAME="code01 覆盖结果" MODIFIED="1753374983537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$03_.coverage" NAME="03_类视图的好处 覆盖结果" MODIFIED="1756486287981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级" />
+    <SUITE FILE_PATH="coverage/Python$code04.coverage" NAME="code04 覆盖结果" MODIFIED="1753375731565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$07_filter.coverage" NAME="07_filter函数的使用 覆盖结果" MODIFIED="1757412732831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$18_.coverage" NAME="18_数据的分组 覆盖结果" MODIFIED="1757700679215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$05_Session.coverage" NAME="05_Session实现免登录 覆盖结果" MODIFIED="1756831270834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$05_URL.coverage" NAME="05_动态URL地址 覆盖结果" MODIFIED="1756187873603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$main.coverage" NAME="main 覆盖结果" MODIFIED="1756561273644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级/demo" />
+    <SUITE FILE_PATH="coverage/Python$08_.coverage" NAME="08_蓝图的介绍 覆盖结果" MODIFIED="1756550348305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级" />
+    <SUITE FILE_PATH="coverage/Python$14_Pipe.coverage" NAME="14-Pipe实现进程间通信 覆盖结果" MODIFIED="1754191963242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$13_ORM.coverage" NAME="14_ORM数据级联设置参数 覆盖结果" MODIFIED="1757566128733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$10_.coverage" NAME="10_一对多关系 覆盖结果" MODIFIED="1757493302991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$code12.coverage" NAME="code12 覆盖结果" MODIFIED="1753546440632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$33_.coverage" NAME="33_宏的引入 覆盖结果" MODIFIED="1756405570786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$07_Flask.coverage" NAME="07_Flask应用上下文 覆盖结果" MODIFIED="1756833278673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$10_before_first_request.coverage" NAME="10_before_first_request 覆盖结果" MODIFIED="1756917563472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$10_sorted_.coverage" NAME="10-sorted函数_自定义对象的排序 覆盖结果" MODIFIED="1754308238219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$code06.coverage" NAME="code06 覆盖结果" MODIFIED="1753531416120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$17__send.coverage" NAME="17-生成器函数的创建_send方法 覆盖结果" MODIFIED="1754353888875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$23_wtf.coverage" NAME="23_wtf上传文件 覆盖结果" MODIFIED="1757173395661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/23_wtf上传文件" />
+    <SUITE FILE_PATH="coverage/Python$36_.coverage" NAME="36_静态文件的引入 覆盖结果" MODIFIED="1756454481720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$09_g.coverage" NAME="09_全局g对象 覆盖结果" MODIFIED="1756835450744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$20_.coverage" NAME="20_子查询 覆盖结果" MODIFIED="1757733026846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$Queue.coverage" NAME="使用Queue实现进程间通信 覆盖结果" MODIFIED="1754066205930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$code23.coverage" NAME="code23 覆盖结果" MODIFIED="1753604224888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$11_context_processor.coverage" NAME="11_context_processor钩子函数 覆盖结果" MODIFIED="1756920124807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$09_sorted.coverage" NAME="09-sorted函数 覆盖结果" MODIFIED="1754307369585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$15_ORM.coverage" NAME="15_ORM数据的排序 覆盖结果" MODIFIED="1757569484045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$10_match.coverage" NAME="10-match语法 覆盖结果" MODIFIED="1754667663671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python新特性" />
+    <SUITE FILE_PATH="coverage/Python$code17.coverage" NAME="code17 覆盖结果" MODIFIED="1753589584001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$asyncio.coverage" NAME="使用asyncio实现协程 覆盖结果" MODIFIED="1754072234799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$17__with.coverage" NAME="17-进程池_with管理 覆盖结果" MODIFIED="1754192816057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$22_Flask_SQLAlchemy.coverage" NAME="22_Flask_SQLAlchemy的使用 覆盖结果" MODIFIED="1757752591213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$03_CRUD.coverage" NAME="03_数据的CRUD操作 覆盖结果" MODIFIED="1757353636901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$21_aliased.coverage" NAME="21_使用aliased函数重命名 覆盖结果" MODIFIED="1757734700404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$20_asyncio.coverage" NAME="20-使用asyncio实现协程 覆盖结果" MODIFIED="1754192952506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$02_.coverage" NAME="02_对象映射表 覆盖结果" MODIFIED="1757351379855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$code02.coverage" NAME="code02 覆盖结果" MODIFIED="1753375009947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$16_.coverage" NAME="16_数据的分页显示 覆盖结果" MODIFIED="1757582360673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$06_URL.coverage" NAME="06_动态URL参数的类型 覆盖结果" MODIFIED="1756191498122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$26_add_argument.coverage" NAME="26_add_argument方法参数详解 覆盖结果" MODIFIED="1757322162635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/26_add_argument方法参数详解" />
     <SUITE FILE_PATH="coverage/Python$notebook.coverage" NAME="notebook 覆盖结果" MODIFIED="1753624307940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
     <SUITE FILE_PATH="coverage/Python$code18.coverage" NAME="code18 覆盖结果" MODIFIED="1753597942223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code01.coverage" NAME="code01 覆盖结果" MODIFIED="1753374983537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code04.coverage" NAME="code04 覆盖结果" MODIFIED="1753375731565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code07.coverage" NAME="code07 覆盖结果" MODIFIED="1753533190553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$_.coverage" NAME="多个线程访问一个资源+互斥锁 覆盖结果" MODIFIED="1753703762939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
-    <SUITE FILE_PATH="coverage/Python$code22.coverage" NAME="code22 覆盖结果" MODIFIED="1753603480390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code13.coverage" NAME="code13 覆盖结果" MODIFIED="1753547213069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$_.coverage" NAME="多个线程访问一个资源+互斥锁 覆盖结果" MODIFIED="1754059098186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$32_.coverage" NAME="32_宏的使用 覆盖结果" MODIFIED="1756404179814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$UDP.coverage" NAME="UDP实现多线程客户端 覆盖结果" MODIFIED="1754154457880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network programming" />
+    <SUITE FILE_PATH="coverage/Python$24_.coverage" NAME="24_转义字符过滤器的使用 覆盖结果" MODIFIED="1756369849117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$09_SQLAlchemy.coverage" NAME="09_SQLAlchemy关联表删除策略设置 覆盖结果" MODIFIED="1757421931443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$25_.coverage" NAME="25_其它过滤器的使用 覆盖结果" MODIFIED="1756370864844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
     <SUITE FILE_PATH="coverage/Python$code09.coverage" NAME="code09 覆盖结果" MODIFIED="1753542772284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$Event.coverage" NAME="Event事件的使用 覆盖结果" MODIFIED="1753712316146" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$16_Flask.coverage" NAME="16_Flask的template_rendered信号 覆盖结果" MODIFIED="1757040641145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$38_.coverage" NAME="38_模版继承练习 覆盖结果" MODIFIED="1756460123186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$_with.coverage" NAME="进程池_with管理 覆盖结果" MODIFIED="1754069154838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$18_yield.coverage" NAME="18-使用yield实现协程 覆盖结果" MODIFIED="1754192597357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
     <SUITE FILE_PATH="coverage/Python$join.coverage" NAME="join方法测试 覆盖结果" MODIFIED="1753666980728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
-    <SUITE FILE_PATH="coverage/Python$code12.coverage" NAME="code12 覆盖结果" MODIFIED="1753546440632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$06_threadLocal.coverage" NAME="06_thread中的Local 覆盖结果" MODIFIED="1756831408518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$01_Flask_url_route.coverage" NAME="01_Flask_url_route 覆盖结果" MODIFIED="1756460764958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级" />
     <SUITE FILE_PATH="coverage/Python$code20.coverage" NAME="code20 覆盖结果" MODIFIED="1753602251199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code06.coverage" NAME="code06 覆盖结果" MODIFIED="1753531416120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code11.coverage" NAME="code11 覆盖结果" MODIFIED="1753545448452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code15.coverage" NAME="code15 覆盖结果" MODIFIED="1753587364095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$04_Session.coverage" NAME="04_Session的有效期 覆盖结果" MODIFIED="1756815677969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$06_map.coverage" NAME="06-map函数 覆盖结果" MODIFIED="1754298732276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
     <SUITE FILE_PATH="coverage/Python$code21.coverage" NAME="code21 覆盖结果" MODIFIED="1753603203950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
     <SUITE FILE_PATH="coverage/Python$code08.coverage" NAME="code08 覆盖结果" MODIFIED="1753533776278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code14.coverage" NAME="code14 覆盖结果" MODIFIED="1753585482077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$05_TCP.coverage" NAME="05-TCP服务端多线程处理 覆盖结果" MODIFIED="1754159252118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Network programming/TCP" />
+    <SUITE FILE_PATH="coverage/Python$31__.coverage" NAME="31_流程控制-循环练习 覆盖结果" MODIFIED="1756403293534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$18_wtf.coverage" NAME="18_wtf的使用 覆盖结果" MODIFIED="1757061816702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$06_werkzeugLocal.coverage" NAME="06_werkzeug中的Local 覆盖结果" MODIFIED="1756831411795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$30_restful.coverage" NAME="30_restful与蓝图结合 覆盖结果" MODIFIED="1757328177443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/30_restful与蓝图结合" />
+    <SUITE FILE_PATH="coverage/Python$09_.coverage" NAME="09_查询参数的获取 覆盖结果" MODIFIED="1756194547685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$14_url_for.coverage" NAME="14_url_for函数的使用原因 覆盖结果" MODIFIED="1756279498381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$07_.coverage" NAME="07_装饰器的使用 覆盖结果" MODIFIED="1756549814783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级" />
+    <SUITE FILE_PATH="coverage/Python$Flask_SQLAlchemy_Alembic.coverage" NAME="Flask_SQLAlchemy_Alembic 覆盖结果" MODIFIED="1757758835437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库/24_Flask_SQLAlchemy_Alembic结合使用" />
+    <SUITE FILE_PATH="coverage/Python$code16.coverage" NAME="code16 覆盖结果" MODIFIED="1753588321848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$08_dataclass.coverage" NAME="08-dataclass装饰器 覆盖结果" MODIFIED="1754666745943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python新特性" />
+    <SUITE FILE_PATH="coverage/Python$28_restful.coverage" NAME="28_restful规范返回值 覆盖结果" MODIFIED="1757325472154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/28_restful规范返回值" />
+    <SUITE FILE_PATH="coverage/Python$08_filter.coverage" NAME="08-filter函数 覆盖结果" MODIFIED="1754305644092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$22_.coverage" NAME="22_过滤器的使用 覆盖结果" MODIFIED="1756368232169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$12_url_for.coverage" NAME="12_蓝图与url_for函数结合 覆盖结果" MODIFIED="1756631250825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级/demo12" />
+    <SUITE FILE_PATH="coverage/Python$01_FlaskCookie.coverage" NAME="01_Flask中设置Cookie 覆盖结果" MODIFIED="1756795795075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
+    <SUITE FILE_PATH="coverage/Python$code07.coverage" NAME="code07 覆盖结果" MODIFIED="1753533190553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$37_.coverage" NAME="37_模版继承 覆盖结果" MODIFIED="1756457555782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$19_join.coverage" NAME="19_join查询 覆盖结果" MODIFIED="1757730268574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$17__.coverage" NAME="17_响应_自定义响应 覆盖结果" MODIFIED="1756298583203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$27_restful.coverage" NAME="27_restful规范化返回值 覆盖结果" MODIFIED="1757322170941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级/27_restful规范化返回值" />
+    <SUITE FILE_PATH="coverage/Python$code22.coverage" NAME="code22 覆盖结果" MODIFIED="1753603480390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$11_.coverage" NAME="11_一对一关系 覆盖结果" MODIFIED="1757498057514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$code13.coverage" NAME="code13 覆盖结果" MODIFIED="1753547213069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$16__.coverage" NAME="16_响应_数据的响应 覆盖结果" MODIFIED="1756291302447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架/imgs" />
+    <SUITE FILE_PATH="coverage/Python$14_.coverage" NAME="14-类装饰器的使用 覆盖结果" MODIFIED="1754324307540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Functional programming" />
+    <SUITE FILE_PATH="coverage/Python$01_.coverage" NAME="01_连接数据库 覆盖结果" MODIFIED="1757350639722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$13_Queue.coverage" NAME="13-使用Queue实现进程间通信 覆盖结果" MODIFIED="1754191876050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$35_setwith.coverage" NAME="35_set与with的使用 覆盖结果" MODIFIED="1756454477920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$code11.coverage" NAME="code11 覆盖结果" MODIFIED="1753545448452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$06__.coverage" NAME="06-多个线程访问一个资源+互斥锁 覆盖结果" MODIFIED="1754187408140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
+    <SUITE FILE_PATH="coverage/Python$27_.coverage" NAME="27_自定义时间过滤器 覆盖结果" MODIFIED="1756382874357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
+    <SUITE FILE_PATH="coverage/Python$10_before_request.coverage" NAME="10_before_request 覆盖结果" MODIFIED="1756919052064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask高级" />
     <SUITE FILE_PATH="coverage/Python$code05.coverage" NAME="code05 覆盖结果" MODIFIED="1753378117237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$23_default.coverage" NAME="23_default过滤器的使用 覆盖结果" MODIFIED="1756368259387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask框架" />
     <SUITE FILE_PATH="coverage/Python$code7.coverage" NAME="code7 覆盖结果" MODIFIED="1753532791590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$code23.coverage" NAME="code23 覆盖结果" MODIFIED="1753604224888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
-    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="生产者消费者模式 覆盖结果" MODIFIED="1753774068814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_Networking and concurrent programming" />
-    <SUITE FILE_PATH="coverage/Python$code17.coverage" NAME="code17 覆盖结果" MODIFIED="1753589584001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python_GUI" />
+    <SUITE FILE_PATH="coverage/Python$.coverage" NAME="模版 覆盖结果" MODIFIED="1756484929013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask视图高级" />
+    <SUITE FILE_PATH="coverage/Python$04_.coverage" NAME="04_常用的数据类型 覆盖结果" MODIFIED="1757385172907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$17_.coverage" NAME="17_数据懒加载 覆盖结果" MODIFIED="1757698770503" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Flask/Flask数据库" />
+    <SUITE FILE_PATH="coverage/Python$15_Manager.coverage" NAME="15-Manager管理器实现进程间通信 覆盖结果" MODIFIED="1754192183905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Concurrent programming" />
   </component>
 </project>

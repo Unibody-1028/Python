@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax获取响应状态码与数据处理</title>
+</head>
+<body>
+        <h1>Ajax获取响应状态码与数据处理</h1>
+        <input type="button" onclick="get_data()" value="获取响应数据">
+
+        <script>
+            function get_data() {
+                // 创建xhr对象
+                let xhr = new XMLHttpRequest()
+                // 设置请求的方式与请求地址
+                xhr.open('get','http://httpbin.org/get')
+                // 发送请求
+                xhr.send()
+                // 获取服务器响应
+                xhr.onreadystatechange = () => {
+                    // 判断Ajax状态码是否为4
+                    if (xhr.readyState==4){
+                        // 判断http状态码是否为200
+                        if(xhr.status==200){
+                            // console.log(xhr.responseText)
+                            // 将数据转换为json类型
+                            data = JSON.parse(xhr.responseText)
+                            console.log(data)
+                        }
+                        else{
+                            // 如果服务器没有正常响应处理
+                            console.log(xhr.status)
+                        }
+
+                    }else {
+                        console.log(xhr.readyState)
+                    }
+
+                }
+            }
+        </script>
+</body>
+</html>
