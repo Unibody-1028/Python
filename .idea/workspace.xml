@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="642992a6-e0a7-4af2-8f70-be5b2a28b530" name="Changes" comment="9 17 2025">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -499,6 +500,7 @@
       <workItem from="1757997014599" duration="1035000" />
       <workItem from="1758038407764" duration="791000" />
       <workItem from="1758039868054" duration="93000" />
+      <workItem from="1758041904762" duration="423000" />
     </task>
     <task id="LOCAL-00001" summary="7 23 2025 a simply GUI program">
       <option name="closed" value="true" />
